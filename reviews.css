@@ -1,0 +1,11 @@
+body{
+background-color: black;
+}
+#ankole-logo {
+    top: 22%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+    position: absolute;
+    width: 22vb;
+}

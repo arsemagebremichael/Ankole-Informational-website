@@ -1,0 +1,149 @@
+body {
+    overflow-x: hidden;
+    overflow-y: hidden;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+html{
+    margin: 0;
+    padding: 0;
+}
+#ankole-logo {
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+    position: absolute;
+    width: 22vb;
+}
+
+.menu {
+    position: relative;
+    text-align: center;
+    display: flex;
+    width: 100%;
+    margin: 0%;
+    filter: brightness(0.8);
+
+
+}
+
+.kitisuru-menu {
+    background-image: url(https://cdn.prod.website-files.com/65aa1f78e2380ad0548de50d/65c34fee7c31fcb2f8c3700b_001.jpg);
+    background-repeat: no-repeat;
+    width: 50%;
+    color: white;
+    height: 100vb;
+}
+
+
+.kilimani-menu {
+    background-repeat: no-repeat;
+    background-image: url(https://cdn.prod.website-files.com/65aa1f78e2380ad0548de50d/65e5a29a2a2b1c4a493fff75_ankolegrill_Kilimani-Nights.jpg);
+    height: 100vh;
+    width: 100vh;
+    background-size: cover;
+    color: white;
+}
+
+#socials {
+    display: flex;
+    color: white;
+    padding: 10px;
+    border: 1px solid gray;
+    z-index: 1;
+    background-color: transparent(245, 252, 252);
+    border-radius: 50%;
+    padding: 10%;
+}
+
+.social-media-platforms {
+    right: 2%;
+    top: 5%;
+    display: flex;
+    position: absolute;
+    width: 5%;
+    justify-content: space-between;
+}
+#whatsapp{
+    color: white;
+    position: absolute;
+    right: 2%;
+    bottom: 6%;
+    z-index: 2;
+    padding: 0.5% 0.7%;
+    border-radius: 50%;
+    border: 1px solid black;
+    font-size: xxx-large;
+    background-color: rgb(48, 46, 46);
+    border: 1px solid gray;
+}
+nav{
+    position: absolute;
+    bottom: 3%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 35%;
+    display: flex;
+    padding: 1% 1.5%;
+    border-radius: 3rem;
+    border: 1px solid transparent;
+    background-color: black;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+
+    a{
+        color: white;
+        text-decoration: none;
+        cursor: pointer;
+
+    }
+    i{
+        color: white;
+    }
+}
+#reservations-button{
+    padding: 2% 2%;
+    border-radius: 2rem;
+    border: 1px solid transparent;
+    background-color: gray;
+    color: white;
+
+}
+.kitisuru-menu-text{
+    position: absolute;
+    top: 50%;
+    left: 25%;
+    transform: translate(-50%, -50%);
+    line-height: 0;
+    a{
+        text-decoration:none ;
+    }
+}
+.kilimani-menu-text{
+    position: absolute;
+    top: 50%;
+    left: 75%;
+    transform: translate(-50%, -50%);
+    line-height: 0;
+    a{
+        text-decoration:none ;
+    }
+}
+h4{
+    line-height: 0;
+    font-size: xx-large;
+    font-weight: lighter;
+    color: rgb(255, 94, 0);
+}
+h3{
+    text-decoration: none;
+    line-height: 0;
+    font-size: 500%;
+    color: white;
+}
+p{
+    color: white;
+}
