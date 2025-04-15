@@ -1,58 +1,191 @@
-body{
+body {
     width: 100%;
-    overflow-x: hidden;
-}
-.home-page-backgrounds{
-    position: relative;
-    width: 100%;
+    overflow: hidden;
+    width: 100vw;
     height: 100vh;
-}
-.background-img{
-    position: relative;
-}
-/* .background{
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    opacity: 0;
-    transition: opacity 5s ease;
-}
-.background.active{
-    opacity: 1;
-} */
+    margin: 0;
 
-nav{
+}
+
+@font-face {
+    font-family: jmh;
+    src: url(imagesandfonts/JMH\ Typewriter.ttf);
+}
+
+@keyframes slide {
+    0% {
+        opacity: 0;
+    }
+
+    8% {
+        opacity: 1;
+    }
+
+    30% {
+        opacity: 1;
+    }
+
+    38% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 0;
+    }
+}
+
+#ankole-logo {
+    width: 10%;
+    padding-top: 5%;
+
+
+}
+
+.tag-lines {
+    position: relative;
+    animation-fill-mode: forwards;
+}
+
+.background {
     position: absolute;
+    background-size: cover;
+    text-align: center;
+    width: 100vw;
+    opacity: 1;
+    height: 100vh;
+    animation: slide 23s infinite;
+    will-change: opacity;
+
+}
+
+#welcome {
+    background-image: url(https://cdn.prod.website-files.com/65aa1f78e2380ad0548de50d/65e5b8b549a7aac5dba0e7d3_ankole_kilimani_nightlife.jpg);
+    animation-delay: 0s;
+    z-index: 5;
+}
+
+#discover {
+    background-image: url(https://cdn.prod.website-files.com/65aa1f78e2380ad0548de50d/65c34fee7c31fcb2f8c3700b_001-p-2000.jpg);
+    animation-delay: 4s;
+    z-index: 4;
+}
+
+#experience {
+    background-image: url(https://cdn.prod.website-files.com/65aa1f78e2380ad0548de50d/65c5f9644676e29dddf08c65_ankolegrill_t-bone-steak-2024-1.jpg);
+    animation-delay: 8s;
+    z-index: 3;
+
+}
+
+#taste {
+    background-image: url(https://cdn.prod.website-files.com/65aa1f78e2380ad0548de50d/65c3b0c67153d0056443f31e_ankolegrill_escobar1.jpg);
+    animation-delay: 12s;
+    z-index: 2;
+}
+
+#savout {
+    background-image: url(https://cdn.prod.website-files.com/65aa1f78e2380ad0548de50d/65cb61d8c46dc657819e1cc2_ankolegrill_slider.jpg);
+    animation-delay: 16s;
+    z-index: 1;
+}
+
+
+nav {
+    z-index: 7;
+    position: absolute;
+    bottom: 1%;
+    left: 50%;
+    transform: translate(-50%, -50%);
     width: 35%;
     display: flex;
-    padding: 0.5% 1.5%;
+    padding: 0.8% 1.5%;
     border-radius: 3rem;
     border: 1px solid transparent;
     background-color: black;
     justify-content: space-between;
     align-items: center;
     cursor: pointer;
+    font-size: large;
 
-    a{
+    a {
         color: white;
         text-decoration: none;
         cursor: pointer;
 
     }
+
+    i {
+        color: gray;
+    }
 }
-#ankole-logo{
-    position: absolute;
-    z-index: 1;
-  object-position: center;
-    
-}
-#reservations-button{
+
+#reservations-button {
     padding: 2% 2%;
     border-radius: 2rem;
     border: 1px solid transparent;
     background-color: gray;
     color: white;
 
+}
+
+h1 {
+    font-size: 900%;
+    color: gray;
+    font-weight: lighter;
+    font-family: jmh, sans-serif;
+    padding-top: 2%;
+}
+
+.menu-up {
+    position: relative;
+    display: inline-block;
+}
+
+.menu-content {
+    position: absolute;
+    top: -1500%;
+    width: 900%;
+    padding: 100% 150%;
+    border-radius: 1rem;
+    display: none;
+    z-index: 20;
+    background-color: black;
+}
+
+.menu-up:hover .menu-content {
+    display: block;
+}
+.social-media-platforms {
+    right: 2%;
+    top: 5%;
+    display: flex;
+    position: absolute;
+    width: 4%;
+    justify-content: space-between;
+}
+
+#socials {
+    display: flex;
+    color: white;
+    padding: 10px;
+    border: 1px solid gray;
+    z-index: 10;
+    background-color: transparent(245, 252, 252);
+    border-radius: 50%;
+    padding: 10% 12%;
+    font-size: medium;
+}
+
+
+#whatsapp{
+    color: white;
+    position: absolute;
+    right: 2%;
+    bottom: 6%;
+    z-index: 10;
+    padding: 0.5% 0.7%;
+    border-radius: 50%;
+    border: 1px solid rgb(104, 102, 102);
+    font-size: xx-large;
+    background-color: rgb(22, 20, 20);
 }

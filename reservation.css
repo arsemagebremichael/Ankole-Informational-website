@@ -1,22 +1,20 @@
-body {
-    overflow-x: hidden;
-    overflow-y: hidden;
+body{
     width: 100%;
-    margin-top: -0;
-    margin-left: -0;
-    bottom: -0;
+    overflow: hidden;
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
 }
-
-.kitisuru {
+.reservation{
     display: flex;
+
 }
 
-.kitisuru-menu {
+.reservation-location{
     width: 50vw;
     height: 100vh;
     background-image: url(https://cdn.prod.website-files.com/65aa1f78e2380ad0548de50d/65c4760165c03d467b650bcb_1.jpg);
 }
-
 #ankole-logo {
     top: 25%;
     left: 25%;
@@ -25,7 +23,6 @@ body {
     position: absolute;
     width: 22vb;
 }
-
 nav {
     z-index: 1;
     position: absolute;
@@ -62,16 +59,7 @@ nav {
     color: white;
 
 }
-
-.kitisuru-menu-list {
-    overflow-x: hidden;
-    background-color: black;
-    width: 50%;
-    overflow-y: scroll;
-    height: 100vh;
-}
-
-.kitisuru-menu-text {
+.reservation-location-text{
     position: absolute;
     top: 50%;
     left: 25%;
@@ -93,67 +81,52 @@ nav {
     }
 }
 
-.food-options{
-    text-align: center;
-    padding-top: 2%;
+.reservation-form{
+    background-color: black;
+    height: 100vh;
+    width: 50vw;
+    overflow-y: scroll;
+
+}
+form{
+    margin:13% 8%;
+    border-radius: 0.5rem;
+    box-shadow: 2px 1px 2px 1px rgb(43, 43, 43);
+    border: 1px solid rgb(44, 42, 42);
+    padding: 4% 2% 5%;
+}
+label{
+    color: white;
+   
     
-    a {
-        margin-left: 2%;
-        text-decoration: none;
-        color: white;
-        font-size: large;
-        gap: 5%;
-        z-index: 1;
-        display: inline-block;
-        
+}
+input{
+    margin-top: 1%;
+    margin-bottom: 2%;
+    height: 40px;
+    width: 95%;
+    background-color: transparent;
+    border: 1px solid gray;
+    color: white;
+    placeholder{
+        color: gray;
     }
-}
-h2{
-    font-size: xx-large;
-}
-p{
-    line-height: 0.5;
-}
-h3{
-    color: rgb(255, 123, 0);
-
-    font-size: x-large;
-}
-.breakfast{
-    padding: 0 8%;
-    color: white;
-
-    margin-top: 25%;
+   
 }
 
-.menu-item{
-    padding: 1% 0;
-    width: 100%;
-    line-height: 0;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    p{
-    }
+button{
+    font-size: large;
+    width: 95%;
+    padding: 2.5%;
+    background-color: antiquewhite;
+    border: 1px transparent solid;
+    border-radius: 0.5rem;
+cursor: pointer;
 }
-.food{
-    padding: 8%;
-    color: white;
-
-    line-height: 1;
-}
-.menu-item-logo{
-    justify-content: ;
-    display: flex;
-}
-.price{
-    width: 11%;
-}
-#ankole-logo1{
-    width: 10%;
-}
-.drinks{
-    color: white;
-    padding: 0 8%;
+#inputClickable:focus{
+outline: 1px solid orange;}
+button:hover{
+ background-color: rgb(201, 128, 44);
+ color: white;
 
 }
