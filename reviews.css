@@ -1,6 +1,9 @@
 body{
 background-color: gray;
 }
+.myReviews{display: none;
+    width: 100vh;
+}
 #ankole-logo {
     top: 22%;
     left: 50%;

@@ -81,13 +81,30 @@ width: 50vw;
         color: orange;
     }
     h1{
+        color: white;
         margin-top: 0;
     }
     
 }
-#fandhileImg{
+#kokoImg{
     padding: 1%;
-    background-color: rgb(153, 140, 153);
+    background-color: rgb(172, 151, 172);
+    border-radius: 0.8rem;
+    img{
+        border-radius: 0.8rem;
+    }
+}
+#akothImg{
+    padding: 1%;
+    background-color: rgb(43, 61, 43);
+    border-radius: 0.8rem;
+    img{
+        border-radius: 0.8rem;
+    }
+}
+#nomadsImg{
+    padding: 1%;
+    background-color: rgb(64, 117, 62);
     border-radius: 0.8rem;
     img{
         border-radius: 0.8rem;
