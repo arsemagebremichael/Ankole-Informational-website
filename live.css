@@ -1,0 +1,96 @@
+body{
+    width: 100vw;
+    display: flex;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    background-image: url(https://cdn.prod.website-files.com/65aa1f78e2380ad0548de50d/65c4760165c03d467b650bcb_1.jpg);
+    background-repeat: repeat-y;
+    background-size: cover;
+}
+#ankole-logo {
+    top: 25%;
+    left: 25%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+    position: absolute;
+    width: 22vb;
+    position: fixed;
+
+}
+.tukative-container{
+   display: flex;
+   background-size: cover;
+
+}
+.tulatikeLive{
+    width: 50vw;
+}
+
+nav{
+    left: 25%;
+    position: fixed;
+
+}
+
+.tukatikeLive-text{
+    position: absolute;
+    top: 50%;
+    left: 25%;
+    transform: translate(-50%, -50%);
+    line-height: 0;
+    text-align: center;
+    position: fixed;
+
+    h3 {
+        font-weight: lighter;
+
+        font-size: xx-large;
+        color: rgb(253, 253, 253);
+    }
+
+    h2 {
+        font-weight: lighter;
+
+        font-size: 400%;
+        color: rgb(255, 123, 0);
+    }
+}
+.live-lists{
+padding-bottom: 10%;
+padding-top: 10%;
+height: 100vh;
+width: 50vw;
+}
+.live-details{
+    margin-top: 5%;
+    gap: 5%;
+    align-items: center;
+    display: flex;
+    line-height: 1;
+    
+    img{
+        
+        
+    }
+    img:hover{      
+        border: transparent;
+        border-radius: 0.5rem;
+        transform: scale(1.09);
+    }
+    p{
+        color: orange;
+    }
+    h1{
+        margin-top: 0;
+    }
+    
+}
+#fandhileImg{
+    padding: 1%;
+    background-color: rgb(153, 140, 153);
+    border-radius: 0.8rem;
+    img{
+        border-radius: 0.8rem;
+    }
+}
+
