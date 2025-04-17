@@ -1,36 +1,23 @@
-body {
-    overflow-x: hidden;
+body{
+    margin: 0%;
     width: 100vw;
     height: 100vh;
     margin: 0;
 
+
 }
-@font-face {
-    font-family: poppins;
-    src: url(imagesandfonts/Poppins-Medium.ttf);
-}
-@font-face {
-    font-family: nutino;
-    src: url(imagesandfonts/Nunito-VariableFont_wght.ttf);
-}
-html{
-    scroll-behavior: smooth;
+
+.koko{
+    filter: brightness(0.5);
 }
 .social-media-platforms {
     right: 2%;
+    top: 5%;
     display: flex;
     position: absolute;
     width: 4%;
     justify-content: space-between;
     margin-top: 3%;
-    a {
-        text-decoration: none;
-        z-index: 5;
-        color: white;
-        text-decoration: none;
-        cursor: pointer;
-    }
-
 }
 #socials {
     
@@ -43,7 +30,6 @@ html{
     border-radius: 50%;
     padding: 10% 12%;
     font-size: medium;
-   
 }
 
 
@@ -59,20 +45,11 @@ html{
     border: 1px solid rgb(104, 102, 102);
     font-size: xx-large;
     background-color: rgb(22, 20, 20);
-    a{
-        text-decoration: none;
-        z-index: 5;
-        color: white;
-        text-decoration: none;
-        cursor: pointer;
-
-    }
 }
-/* nav {
-    font-family: nutino;
-    position: fixed;
+nav {
     z-index: 7;
     position: absolute;
+    font-family: nutino;
     bottom: 1%;
     left: 50%;
     transform: translate(-50%, -50%);
@@ -85,7 +62,15 @@ html{
     justify-content: space-between;
     align-items: center;
     cursor: pointer;
-    font-size: medium; 
+    font-size: large;
+    position: fixed;
+
+    a {
+        color: white;
+        text-decoration: none;
+        cursor: pointer;
+
+    }
     a:hover{
         color: gray;
     }
@@ -93,7 +78,7 @@ html{
     i {
         color: gray;
     }
-} */
+}
 
 .menu-up {
     position: relative;
@@ -132,7 +117,6 @@ html{
     margin-left: -100%;
 }
 .opening-hours:hover .opening-hours-detail  {
-    color: white;
     display: block;
 }
 
@@ -148,4 +132,76 @@ html{
 #reservations-button:hover{
     background-color: white;
     color: black;
+}
+
+/* #image-o{
+
+position: absolute;
+overflow: visible;
+background: rgb(0, 0, 0);
+margin-top: -1%;
+background: rgba(0, 0, 0, 0.5);
+width: 99vw;
+height: 102vh;
+
+} */
+img{
+    width: 100vw;
+    height: 200vh;
+}
+h1{
+    z-index: 2;
+    position: absolute;
+    text-align: center;
+    justify-content: center;
+    left: 50%;
+    top: 30%;
+    transform: translate(-50%, -50%);
+    font-size: 500%;
+    color: rgb(255, 255, 255);
+    opacity: whi;
+    
+}
+
+@media  (max-width:430px){
+    body{
+        background-color: black;
+    }
+    img{
+        height: 70vh;
+    
+    }
+    h1{
+        width: 80%;
+        top: 80%;
+        font-size: xx-large;
+    }
+    .hide{
+        display: none;
+    }
+    nav{
+        gap: 15%;
+    }
+}
+@media (min-width: 431px) and (max-width: 912px){
+    body {
+        overflow-x: hidden;
+        overflow-y: hidden;
+        background-color: black;
+
+
+    }
+    img{
+        height: 70vh;
+    
+    }
+    h1{
+        width: 80%;
+        top: 80%;
+        font-size: xx-large;
+    }
+    nav{
+        
+        
+    }
 }

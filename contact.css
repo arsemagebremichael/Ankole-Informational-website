@@ -3,22 +3,27 @@ body {
     overflow: hidden;
     height: 100vh;
     margin: 0 auto;
-    background-image: url(https://media-cdn.tripadvisor.com/media/photo-m/1280/1d/78/ea/6d/ankolegrill.jpg);
+    background-image: linear-gradient(rgba(34, 33, 33, 0.5), rgba(88, 82, 82, 0.5)), url(    https://media-cdn.tripadvisor.com/media/photo-m/1280/1d/78/ea/6d/ankolegrill.jpg
+    );
     background-repeat: no-repeat;
     background-size: cover;
     background-blend-mode:darken;
 }
 .contact-infotmation{
+
     text-align: center;
     h2 {
         font-size: xx-large;
        }
        
        a {
-           font-size: x-large;
+        font-family: nutino;
+           font-size: large;
+           font-weight: bold;
            text-decoration: none;
            color: white;
            flex-direction: column;
+           width: 10vh;
        
        }
        a:hover{
@@ -41,40 +46,48 @@ body {
 }
 
 .kitisuru-contact {
-
     color: white;
     border: 2px white solid;
-    padding: 1%;
+    padding: 1% 2%;
+
 
 }
 
 
 
 
-nav{
+nav {
+    font-family: nutino;
+    position: fixed;
     z-index: 7;
     position: absolute;
-    bottom: 3%;
+    bottom: 1%;
     left: 50%;
     transform: translate(-50%, -50%);
     width: 35%;
     display: flex;
-    padding: 1% 1.5%;
+    padding: 0.8% 1.5%;
     border-radius: 3rem;
     border: 1px solid transparent;
     background-color: black;
     justify-content: space-between;
     align-items: center;
     cursor: pointer;
+    font-size: medium;
 
-    a{
+    a {
+        text-decoration: none;
+        z-index: 5;
         color: white;
         text-decoration: none;
         cursor: pointer;
-
     }
-    i{
-        color: white;
+
+    i {
+        color: gray;
+    }
+    a:hover{
+        color: gray;
     }
 }
 

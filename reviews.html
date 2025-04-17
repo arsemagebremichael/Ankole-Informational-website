@@ -5,44 +5,119 @@
     <meta charset="UTF-8">
     <link rel="stylesheet" href="reviews.css">
     <link rel="stylesheet" href="index.js">
+    <link rel="stylesheet" href="commonCss.css">
     <script src="https://kit.fontawesome.com/bbdf563758.js" crossorigin="anonymous"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Reviews</title>
 </head>
 
 <body>
-    <img id="ankole-logo"
-        src="https://cdn.prod.website-files.com/65aa1f78e2380ad0548de50d/65c0b0524cdc940f7455af22_logo.svg"
-        alt="Ankole logo">
-    <h2>Reviews</h2>
-        <div class="reviews">
-            <div class="myReviews">
-                <p>This place is run by educated, innovative &creative people! The architectural layout, seating,
-                    ambience, lighting,cutlery: servings, design; has been impeccably well thought out! Even
-                    thewashrooms were excellent!The food was AWESOME! This is surprising consideringthe fact we were
-                    there on a Saturday night & they almost had no space!We were extremely well serviced too!Rare to
-                    find such finesse in Kenya! You must go visitthem!</p>
-                <h5>irfan virji</h5>
-                <h4>KITISURU</h4>
-            </div>
-            <div  class="myReviews">
-                <p>Such a fantastic restaurant, I plan on being a regularhere. The food is amazing the atmosphere is so
-                    nice and the service isexceptional. I pray you are able to visit them at least once so you
-                    canunderstand what I'm saying. 10/10.Recommended dishes: Steakmust go visitthem!</p>
-                <h5>Paul Kamau</h5>
-                <h4>KITISURU</h4>
-            </div>
-            <div  class="myReviews">
-                <p>Best place to eat out. If you want to have a niceromantic date this place is perfect. The food is fantastic only be carefulcause the portions are bigger than you would expect.</p>
-                 <h5>Vladimiro Stivali</h5>
-                <h4>KITISURU</h4>
-            </div>
-            <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
-            <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>
 
+    <div class="all"></div>
+    <a href="index.html"> <img
+            src="https://cdn.prod.website-files.com/65aa1f78e2380ad0548de50d/65c0b0524cdc940f7455af22_logo.svg" alt=""
+            id="ankole-logo"></a>
+            <div class="social-media-platforms">
+                <a id="socials" class="fa-brands fa-instagram" href="https://www.instagram.com/ankolegrill/"><i ></i></a>
+                <a id="socials" class="fa-brands fa-facebook-f" href="https://www.facebook.com/ankolegrill/"></a>
+                
+            </div>
+    <div class="reviews-container">
+
+
+
+        <div class="review-list">
+            <h1>Reviews</h1>
+            <i class="fa-solid fa-quote-left quote-icons"></i>            
+            <p class="review-quote">Best place to eat out. Beautiful place, ambiance is top-notch, swift and friendly
+                staff. I was really impressed.</p> <br>
+            <p class="author">Molly Nalwadda</p>
+            <p class="review-location">KITISURU</p>
+            <i class="fa-solid fa-quote-right quote-icons"></i>        </div>
+        <div class="review-list">
+            <h1>Reviews</h1>
+            <i class="fa-solid fa-quote-left quote-icons"></i>
+            <p class="review-quote">This place is a stunner! Went here as a group of 12 people. The ambiance,
+                architectural layout, food, drinks, service, lighting - everything was top-notch!</p>
+            <p class="author">Sarah Karuri</p>
+            <p class="review-location">KITISURU</p>
+            <i class="fa-solid fa-quote-right quote-icons"></i>        </div>
+
+        <div class="review-list">
+            <h1>Reviews</h1>
+            <i class="fa-solid fa-quote-left quote-icons"></i>            <p class="review-quote">Ankole Grill is indeed a recommendable restaurant.Beautiful location along with
+                excellent and friendly staff and very nicedishes. Also recommended for those who like Kenyan-style
+                cuisine!</p>
+            <p class="author">
+                Stephan Hofer</p>
+            <p class="review-location">KITISURU</p>
+            <i class="fa-solid fa-quote-right quote-icons"></i>        
         </div>
-   
-    
+        <button class="navigation-button w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+        <button class="navigation-button w3-display-right" onclick="plusDivs(1)">&#10095;</button>
+    </div>
+    <div id="whatsapp">
+        <a class="fa-brands fa-whatsapp" href="https://www.facebook.com/ankolerealitytv/posts/join-our-whatsapp-group-httpschatwhatsappcomjztjazja7xs33uvkewk4b1/316441933378390/"></a>
+        </div>
+    <nav>
+        <div class="menu-up">
+            <i class="fa-solid fa-bars"></i>
+            <div class="menu-content">
+                <a href="index.html">Home</a>
+                <hr>
+                <a href="location.html">Menu</a>
+                <hr>
+                <a href="reviews.html">Reviews</a>
+                <hr>
+                <a href="events.html">Events</a>
+                <hr>
+                <a href="live.html">Live</a>
+                <hr>
+                <a href="contacts.html">Contacts</a>
+                <hr>
+            </div>
+        </div>
+        <div class="opening-hours">
+            <i class="fa-regular fa-clock"></i>
+            <div class="opening-hours-detail">
+                <h3>Opening Hours</h3>
+                <h4>Kirisuru</h4>
+                <p>Mon - Sun</p>
+                <p>9:00am-11:00pm</p>
+                <h4>Kilimani</h4>
+                <p>Mon-Sun</p>
+                <p>7:00am-11:00pm</p>
+
+            </div>
+        </div>
+
+        <a href="index.html">Home</a>
+        <a href="location.html">Menu</a>
+        <a href="reviews.html">Reviews</a>
+        <a href="events.html">Events</a>
+        <a href="live.html">Live</a>
+        <a href="contacts.html">Contacts</a>
+        <a id="reservations-button" href="reservation.html">Reservations</a>
+
+    </nav>
+    <script>
+        var slideIndex = 1;
+        showDivs(slideIndex);
+        function plusDivs(n) {
+            showDivs(slideIndex += n);
+        }
+        function showDivs(n) {
+            var i;
+            var reviews = document.getElementsByClassName("review-list");
+            if (n > reviews.length) { slideIndex = 1 }
+            if (n < 1) { slideIndex = reviews.length }
+            for (i = 0; i < reviews.length; i++) {
+                reviews[i].style.display = "none";
+            }
+            reviews[slideIndex - 1].style.display = "block";
+        }
+    </script>
+
 </body>
 
 </html>

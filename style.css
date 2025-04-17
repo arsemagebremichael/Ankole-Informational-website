@@ -1,4 +1,8 @@
-
+body {
+    height: 100vh;
+    overflow-x: hidden;
+    margin: 0;
+}
 
 @font-face {
     font-family: jmh;
@@ -84,6 +88,7 @@
 
 
 nav {
+    font-family: nutino;
     position: fixed;
     z-index: 7;
     position: absolute;
@@ -99,19 +104,24 @@ nav {
     justify-content: space-between;
     align-items: center;
     cursor: pointer;
-    font-size: large;
+    font-size: medium;
 
     a {
+        text-decoration: none;
+        z-index: 5;
         color: white;
         text-decoration: none;
         cursor: pointer;
-
     }
-    
+
     i {
         color: gray;
     }
+    a:hover{
+        color: gray;
+    }
 }
+
 
 #reservations-button {
     padding: 2% 2%;
@@ -126,68 +136,37 @@ h1 {
     font-size: 900%;
     color: gray;
     font-weight: lighter;
-    font-family: jmh, sans-serif;
+    font-family: nutino;
     padding-top: 2%;
 }
 
-.menu-up {
-    position: relative;
-    display: inline-block;
-}
 
-.menu-content {
-    position: absolute;
-    top: -1500%;
-    width: 900%;
-    padding: 100% 150%;
-    border-radius: 1rem;
-    display: none;
-    z-index: 20;
-    background-color: black;
-    margin-left: -100%;
-}
 
-.menu-up:hover .menu-content {
-    display: block;
-}
-.social-media-platforms{
-    margin-top: 3%;
-}
-.opening-hours{
-    position: relative;
-    display: inline-block;
-}
-.opening-hours-detail{
-    position: absolute;
-    padding: 100% 150%;
-    border-radius: 1rem;
-    display: none;
-    z-index: 10;
-    background-color: white;
-    width: 1000%;
-    top: -1900%;
-    margin-left: -100%;
-}
-.opening-hours:hover .opening-hours-detail  {
-    display: block;
-}
-
-#whatsapp{
-    z-index: 10;
+@media  (max-width:430px) {
+body{
+    max-width: 100vh;
+    height: 100vh;
+    overflow: hidden;
+    
 
 }
-
-@media (max-width: 500px) and (min-width: 0px){
-    body{
-        
-    }
- 
-    .social-media-platforms{
-        flex-direction: column;
-        font-size: xx-large;
-    }
-    .ankole-logo{
+.background{
+    height: 100vh;
+    width: 100vw;
+}
+    #ankole-logo {
+        width: 50%;
 
     }
+    .background{
+        h1{
+            font-size: xxx-large;
+        }
+    }
+    nav {
+        padding: 5%;
+
+    }
+    
 
 }
