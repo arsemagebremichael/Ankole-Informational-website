@@ -1,24 +1,28 @@
-body{
-background-color: rgb(0, 0, 0);
-height: 100vh;
-overflow: hidden;
+body {
+    background-color: rgb(0, 0, 0);
+    height: 100vh;
+    overflow: hidden;
 }
-.myReviews{display: none;
+
+.myReviews {
+    display: none;
     width: 100vh;
 }
+
 #ankole-logo {
-    top: 22%;
+    top: 20%;
     left: 50%;
     transform: translate(-50%, -50%);
     z-index: 1;
     position: absolute;
     width: 22vb;
 }
+
 nav {
     font-family: nutino;
-    position: fixed;
     z-index: 7;
     position: absolute;
+    position: fixed;
     bottom: 1%;
     left: 50%;
     transform: translate(-50%, -50%);
@@ -44,7 +48,8 @@ nav {
     i {
         color: gray;
     }
-    a:hover{
+
+    a:hover {
         color: gray;
     }
 }
@@ -53,6 +58,7 @@ nav {
     width: 100%;
     display: none;
 }
+
 .reviews-container {
     top: 55%;
     left: 50%;
@@ -64,66 +70,203 @@ nav {
     background-color: black;
     color: white;
     height: 60vh;
-    width: 80vh;
-    font-family: jmh;
-    h1{
-        padding-top: 10%;
-        font-size: xxx-large;
-        font-family: poppins;
-    }
+    width: 90vh;
+
+
 }
-.review-quote{
+
+.review-quote {
     font-family: nutino;
-    margin-top: 10%;
+    margin-top: 5%;
     font-size: 1.3rem;
-   margin-left: 15%;
-   width: 30vw;
+    margin-left: 15%;
+    width: 30vw;
 }
+
 .author {
     font-family: nutino;
     font-weight: bold;
-    margin-top: 10px;
+    margin-top: 5px;
 }
+
 .review-location {
     font-family: nutino;
     font-style: italic;
     color: gray;
 }
-.navigation-button {
+
+.fa-light {
     position: absolute;
     top: 50%;
     width: auto;
-    padding: 16px;
-    margin-top: -22px;
     color: white;
     background-color: black;
     border: none;
     cursor: pointer;
-    opacity: 0.8;
-    font-size: 18px;
+    opacity: 0.5;
+    font-size: 35px;
+    font-weight: lighter;
 }
-.w3-display-left {
+
+.fa-less-than {
     left: 0;
+
 }
-.w3-display-right {
+
+.fa-greater-than {
     right: 0;
 }
 
 .navigation-button:hover {
     background-color: gray;
 }
+
 .quote-icons {
 
-    font-size: xx-large;
+    font-size: xxx-large;
     color: rgb(255, 72, 0);
 }
-.fa-quote-left{
-    margin-left: -75%;
+
+.fa-quote-left {
+    margin-left: -90%;
 
 }
-.fa-quote-right{
-    margin-left: 75%;
+
+.fa-quote-right {
+    margin-top: -20%;
+    margin-left: 90%;
 }
-.fa-thin{
+
+h1 {
+    margin-top: 2%;
+    text-align: center;
     color: white;
+    padding-top: 10%;
+    font-size: xxx-large;
+    font-family: nutino;
+}
+
+.social-media-platforms {
+    top: 5%;
+    right: 2%;
+    display: flex;
+    position: absolute;
+    width: 4%;
+    justify-content: space-between;
+
+    a {
+        text-decoration: none;
+        z-index: 5;
+        color: white;
+        text-decoration: none;
+        cursor: pointer;
+    }
+
+}
+
+#socials {
+
+    display: flex;
+    color: white;
+    padding: 10px;
+    border: 1px solid gray;
+    z-index: 10;
+    background-color: transparent(245, 252, 252);
+    border-radius: 50%;
+    padding: 10% 12%;
+    font-size: medium;
+
+}
+
+#whatsapp {
+    color: rgb(245, 241, 241);
+    position: absolute;
+    position: fixed;
+    right: 2%;
+    bottom: 6%;
+    z-index: 10;
+    padding: 0.5% 0.7%;
+    border-radius: 50%;
+    border: 1px solid rgb(104, 102, 102);
+    font-size: xx-large;
+    background-color: rgb(22, 20, 20);
+
+    a {
+        text-decoration: none;
+        z-index: 5;
+        color: white;
+        text-decoration: none;
+        cursor: pointer;
+
+    }
+}
+
+@media (max-width: 375px) {
+    nav {
+
+        width: 45vw;
+    }
+
+    .hide {
+        display: none;
+    }
+}
+
+@media (min-width: 376px) and (max-width: 541px) {
+    body{
+       
+        height: 50vh;
+        overflow: hidden;
+    }
+    .social-media-platforms {
+        top: 5%;
+        left: 80%;
+        align-items: center;
+        flex-direction: column;
+
+    }
+    p{
+        width: 50vh;
+    }
+    nav {
+        top: 89%;
+        left: 50%;
+        height: 30px;
+        width: 40vw;
+        position: fixed;
+    }
+
+    #ankole-logo {
+        width: 35%;
+
+    }
+    p{
+        font-size: smaller;
+    }
+
+    .hide {
+        display: none;
+    }
+    #whatsapp{
+        display: none;
+      align-items: center;
+
+    }
+    .fa-whatsapp{
+        position: absolute;
+        position: fixed;
+        top: 70% ;
+        left: 60%;
+
+    }
+    .reviews-container {
+        width: 70vh;
+    }
+    .review-quote{
+        font-size: smaller;
+        
+    }
+  .review-list{
+    width: 20%;
+  }
 }
