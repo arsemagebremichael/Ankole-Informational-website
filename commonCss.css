@@ -16,7 +16,7 @@ body {
 html{
     scroll-behavior: smooth;
 }
- .social-media-platforms {
+/* .social-media-platforms {
     right: 2%;
     display: flex;
     position: absolute;
@@ -32,7 +32,7 @@ html{
     }
 
 } 
-#socials {
+/* #socials {
     
     display: flex;
     color: white;
@@ -44,10 +44,10 @@ html{
     padding: 10% 12%;
     font-size: medium;
    
-}
+} */
 
 
-#whatsapp{
+/* #whatsapp{
     color: rgb(245, 241, 241);
     position: absolute;
     position: fixed;
@@ -67,7 +67,7 @@ html{
         cursor: pointer;
 
     }
-}
+} */
 /* nav {
     font-family: nutino;
     position: fixed;
@@ -132,7 +132,6 @@ html{
     margin-left: -100%;
 }
 .opening-hours:hover .opening-hours-detail  {
-    color: white;
     display: block;
 }
 

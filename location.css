@@ -27,8 +27,7 @@ body {
 }
 
 .kitisuru-menu {
-    background-image: linear-gradient(rgba(37, 35, 35, 0.5), rgba(22, 21, 21, 0.5)), url(https://cdn.prod.website-files.com/65aa1f78e2380ad0548de50d/65c34fee7c31fcb2f8c3700b_001.jpg);
-
+    background-image: linear-gradient(rgba(39, 35, 35, 0.5), rgba(48, 44, 44, 0.5)), url(https://cdn.prod.website-files.com/65aa1f78e2380ad0548de50d/65c34fee7c31fcb2f8c3700b_001.jpg);
     background-repeat: no-repeat;
     width: 50%;
     color: white;
@@ -106,7 +105,7 @@ nav{
 h4{
 
     line-height: 0;
-    font-size: xx-large;
+    font-size: x-large;
     font-weight: lighter;
     color: rgb(255, 94, 0);
 }
@@ -115,15 +114,16 @@ h3{
     font-weight: ;
     text-decoration: none;
     line-height: 0;
-    font-size: 400%;
+    font-size: xx-large;
     color: white;
 }
 p{
     font-family: nutino;
     color: white;
 }
-@media only screen and (max-width: 430px){
+@media (width: 375px){
     body{
+        margin: 0;
         overflow-x: hidden;
         overflow-y: scroll;
         width: 100vw;
@@ -146,15 +146,28 @@ height: 70vh;
  }
  .social-media-platforms{
     flex-direction: column;
-
  }
- .socials{
-
+ #socials{
     margin-top: 5%;
-    font-size: 820%;
+    font-size: xx-large;
  }
  .kitisuru-menu-text{
+    left: 50%;
+    padding-top: 10%;
     position: absolute;
-    top: 50%;
+    top: 30%;
  }
+.kilimani-menu-text{
+
+left: 50%;
+    padding-top: 10%;
+    position: absolute;
+    top: 70%;
+}
+#whatsapp{
+
+}
+.fa-brands{
+    padding: 5;
+}
 }

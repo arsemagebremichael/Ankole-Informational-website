@@ -242,10 +242,10 @@ font-size: x-large;
 }
     
 }
-@media (min-width: 376px) and (max-width: 430px){
+@media (width: 412px){
     body{
-        overflow-x: hidden;
-        width: 80%;
+        overflow-y: scroll;
+        height: 120vh;
     }
     #ankole-logo{
         width: 40%;
@@ -254,6 +254,8 @@ font-size: x-large;
     .contact-info{
         flex-direction: column;
        padding-top: 5%;
+       width: 80%;
+       margin-left: 10%;
     }
     .kitisuru-contact{
 
@@ -264,6 +266,7 @@ font-size: x-large;
     }
     nav{
         position: absolute;
+        position: fixed;
         top: 90vh;
         padding: 1%;
         height: 60px;
@@ -285,10 +288,18 @@ font-size: x-large;
 #reservations-button:hover{
     background-color: white;
     color: black;
+    
 }
     
-
 }
+
+#reservations-button:hover{
+    background-color: white;
+    color: black;
+}
+  
+
+
 @media (max-width: 539px) and (min-width: 431){
     #ankole-logo{
         width: 35%;
@@ -303,7 +314,6 @@ font-size: x-large;
     .social-media-platforms {
         align-items: center;
         flex-direction: column;
-        align-items: center;
     
     }
 }

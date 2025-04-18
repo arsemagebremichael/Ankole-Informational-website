@@ -91,7 +91,7 @@ nav {
         font-weight: lighter;
 
         font-size: 400%;
-        color: rgb(255, 123, 0);
+        color: rgb(255, 85, 0);
     }
 }
 
@@ -164,7 +164,7 @@ button:hover {
     }
 
     .reservation-location {
-        height: 50vh;
+        height: 40vh;
         width: 100vw;
 
     }
@@ -172,10 +172,12 @@ button:hover {
     #ankole-logo {
         top: 15%;
         left: 50%;
+        width: 30%;
     }
 
     .reservation-location-text {
         left: 50%;
+        transform: translate(-50%, -50%);
         top: 40%;
     }
 
@@ -183,6 +185,7 @@ button:hover {
         width: 100vw;
         height: 75vh;
         overflow-x: hidden;
+        overflow-y: auto;
     }
 
     form {
@@ -207,11 +210,15 @@ button:hover {
 
     nav {
         position: absolute;
+    top: 80vh;
+    height: 35px;
+
 
     }
+    
 }
 
-@media (min-width: 431px) and (max-width: 912px) {
+@media (min-width: 431px) and (max-width: 819px) {
     body {
         overflow-x: hidden;
         overflow-y: scroll;
@@ -232,6 +239,7 @@ button:hover {
     #ankole-logo {
         top: 15%;
         left: 50%;
+        position: sticky;
     }
 
     .reservation-location-text {
