@@ -13,6 +13,7 @@ body {
     transform: translate(-50%, -50%);
     z-index: 1;
     position: absolute;
+    position: fixed;
     width: 22vb;
 }
 
@@ -52,6 +53,58 @@ body {
     line-height: 0;
     color: rgb(172, 166, 166);
 }
+.social-media-platforms {
+    right: 2%;
+    display: flex;
+    position: absolute;
+    position: fixed;
+    width: 4%;
+    justify-content: space-between;
+    margin-top: 3%;
+    a {
+        text-decoration: none;
+        z-index: 5;
+        color: white;
+        text-decoration: none;
+        cursor: pointer;
+    }
+
+} 
+#socials {
+    
+    display: flex;
+    color: white;
+    padding: 10px;
+    border: 1px solid gray;
+    z-index: 10;
+    background-color: transparent(245, 252, 252);
+    border-radius: 50%;
+    padding: 10% 12%;
+    font-size: medium;
+   
+}
+#whatsapp{
+    color: rgb(245, 241, 241);
+    position: absolute;
+    position: fixed;
+    right: 2%;
+    bottom: 6%;
+    z-index: 10;
+    padding: 0.5% 0.7%;
+    border-radius: 50%;
+    border: 1px solid rgb(104, 102, 102);
+    font-size: xx-large;
+    background-color: rgb(22, 20, 20);
+    a{
+        text-decoration: none;
+        z-index: 5;
+        color: white;
+        text-decoration: none;
+        cursor: pointer;
+
+    }
+} 
+
 h1{
     line-height: 1;
     font-size: xxx-large;
@@ -62,9 +115,9 @@ h1{
 }
 nav {
     font-family: nutino;
-    position: fixed;
     z-index: 7;
     position: absolute;
+    position: fixed;
     bottom: 1%;
     left: 50%;
     transform: translate(-50%, -50%);
@@ -95,4 +148,108 @@ nav {
     }
 .more-info{
     font-family: nutino;
+}
+@media (max-width: 430px){
+    body{
+overflow: scroll;    }
+    
+ .event-places{
+    flex-direction: column;
+    padding-bottom: 50%;
+
+ } 
+ .place{
+    width: 100vw;
+ }.social-media-platforms{
+    flex-direction: column;
+ }
+ .hide{
+    display: none;
+ }
+ 
+}
+@media width() {
+    
+}
+@media (width: 540px) {
+    #ankole-logo{
+        top: 20%;
+    }
+    body{
+overflow: scroll;    }
+    
+ .event-places{
+    flex-direction: column;
+ } 
+ .place{
+    width: 100vw;
+    padding-top: 30vh;
+    padding-bottom: 50%;
+ }.social-media-platforms{
+    flex-direction: column;
+    align-items: center;
+ }
+nav{
+    width: 85vw;
+    a{
+        font-size: x-small;
+    }
+}
+ 
+}
+@media (min-width: 431px) and (max-width: 539px) {
+    #ankole-logo{
+        top: 20%;
+    }
+    body{
+overflow: scroll;    }
+    
+ .event-places{
+    flex-direction: column;
+ } 
+ .place{
+    width: 100vw;
+    padding-top: 30vh;
+    padding-bottom: 50%;
+ }.social-media-platforms{
+    flex-direction: column;
+    align-items: center;
+ }
+nav{
+    width: 70vw;
+}
+ 
+}
+@media (min-width: 541px) and (max-width: 912px) {
+    #ankole-logo{
+        top: 20%;
+    }
+    body{
+overflow: scroll;    }
+    
+ .event-places{
+    flex-direction: column;
+ } 
+ .place{
+    width: 100vw;
+    padding-top: 30vh;
+    padding-bottom: 50%;
+ }.social-media-platforms{
+    flex-direction: column;
+    align-items: center;
+ }
+nav{
+    width: 70vw;
+}
+ 
+}
+@media(min-width: 1024px) and (max-width: 1400px){
+    .place{
+        width: 100vw;
+        padding-top: 100%;
+        padding-bottom: 50%;
+     }
+     nav{
+        width: 65vh;
+     }
 }
