@@ -32,8 +32,7 @@ html{
     width: 20vb;
 }
 
-nav {
-    
+nav {   
     font-family: nutino;
     position: fixed;
     z-index: 7;
@@ -74,7 +73,56 @@ nav {
     color: white;
 
 }
+#whatsapp{
+    color: rgb(245, 241, 241);
+    position: absolute;
+    position: fixed;
+    right: 2%;
+    bottom: 6%;
+    z-index: 10;
+    padding: 0.5% 0.7%;
+    border-radius: 50%;
+    border: 1px solid rgb(104, 102, 102);
+    font-size: xx-large;
+    background-color: rgb(22, 20, 20);
+    a{
+        text-decoration: none;
+        z-index: 5;
+        color: white;
+        text-decoration: none;
+        cursor: pointer;
 
+    }
+}
+#socials {
+    
+    display: flex;
+    color: white;
+    padding: 10px;
+    border: 1px solid gray;
+    z-index: 10;
+    background-color: transparent(245, 252, 252);
+    border-radius: 50%;
+    padding: 10% 12%;
+    font-size: medium;
+   
+} 
+.social-media-platforms {
+    right: 2%;
+    display: flex;
+    position: absolute;
+    width: 4%;
+    justify-content: space-between;
+    margin-top: 3%;
+    a {
+        text-decoration: none;
+        z-index: 5;
+        color: white;
+        text-decoration: none;
+        cursor: pointer;
+    }
+
+} 
 .kitisuru-menu-list {
     overflow-x: hidden;
     background-color: black;
@@ -189,14 +237,509 @@ h3{
     body{
         margin: 0;
         overflow-x: hidden;
-        overflow-y: scroll;
         width: 100vw;
 
     } 
-    .menu{
+    .kitisuru {
+        overflow-y: scroll; 
         flex-direction: column;
-     }
+    }
+    .kitisuru-menu {
+        width: 56vh;
+        height: 40vh;
+        overflow-y: scroll; 
+
+    }
+    #ankole-logo {
+        width: 20%;
+        top: 8%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+.kitisuru-menu-text {
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.food-options{
+    margin-top: -10%;
+    width: 56vh;
+}
      .hide{
         display: none;
     }
+    .kitisuru-menu-list {
+        width: 56vh;
+        height: 60vh;
+    }
+    nav{
+        left: 50%;
+    transform: translate(-50%, -50%);
+    width: 35vw;
+    background-color: rgb(33, 32, 32);
+    }
+    p{
+        font-size: small;
+        align-items: baseline;
+        line-height: 1;
+    }
+    #ankole-logo1{
+        width: 20%;
+    }
+    h4{
+        font-size: small;
+        line-height: 1;
+    }
+    h3{
+        font-size: large;
+    }
+    .h-coffee{
+        font-size: sm;
+    }
+
 }
+
+@media (min-width: 376px) and (max-width: 414px){
+    body{
+        margin: 0;
+        overflow-x: hidden;
+        width: 100w;
+
+    } 
+    .kitisuru {
+        overflow-y: scroll; 
+        flex-direction: column;
+    }
+    .kitisuru-menu {
+        width: 100vw;
+        height: 40vh;
+        overflow-y: scroll; 
+
+    }
+    #ankole-logo {
+        width: 20%;
+        top: 10%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+.kitisuru-menu-text {
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.food-options{
+    width: 100vw;
+    height: 40px;
+    margin-top: -10%;
+}
+     .hide{
+        display: none;
+    }
+    .kitisuru-menu-list {
+        width: 100vw;
+        height: 60vh;
+    }
+    nav{
+        left: 50%;
+    transform: translate(-50%, -50%);
+    width: 30vw;
+    background-color: rgb(14, 13, 13);
+    }
+    p{
+        font-size: small;
+        align-items: baseline;
+        line-height: 1;
+    }
+    #ankole-logo1{
+        width: 20%;
+    }
+    h4{
+        font-size: small;
+        line-height: 1;
+    }
+    h3{
+        font-size: large;
+    }
+
+}
+
+@media (width: 430px){
+    body{
+        margin: 0;
+        overflow-x: hidden;
+        width: 100w;
+
+    } 
+    .kitisuru {
+        overflow-y: scroll; 
+        flex-direction: column;
+    }
+    .kitisuru-menu {
+        width: 100vw;
+        height: 40vh;
+        overflow-y: scroll; 
+
+    }
+    #ankole-logo {
+        width: 20%;
+        top: 10%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+.kitisuru-menu-text {
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.food-options{
+    width: 100vw;
+    height: 40px;
+    margin-top: -10%;
+}
+     .hide{
+        display: none;
+    }
+    .kitisuru-menu-list {
+        width: 100vw;
+        height: 60vh;
+    }
+    nav{
+        left: 50%;
+    transform: translate(-50%, -50%);
+    width: 30vw;
+    background-color: rgb(17, 15, 15);
+    }
+    p{
+        font-size: small;
+        align-items: baseline;
+        line-height: 1;
+    }
+    #ankole-logo1{
+        width: 20%;
+    }
+    h4{
+        font-size: small;
+        line-height: 1;
+    }
+    h3{
+        font-size: large;
+    }
+
+}
+@media (width: 540px){
+    body{
+        margin: 0;
+        overflow-x: hidden;
+        width: 100w;
+
+    } 
+    .kitisuru {
+        overflow-y: scroll; 
+        flex-direction: column;
+    }
+    .kitisuru-menu {
+        width: 100vw;
+        height: 40vh;
+        overflow-y: scroll; 
+
+    }
+    #ankole-logo {
+        width: 20%;
+        top: 10%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+.kitisuru-menu-text {
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.food-options{
+    width: 100vw;
+    height: 40px;
+    margin-top: -10%;
+}
+     .hide{
+        display: none;
+    }
+    .kitisuru-menu-list {
+        width: 100vw;
+        height: 60vh;
+    }
+    nav{
+        left: 50%;
+    transform: translate(-50%, -50%);
+    width: 20vw;
+    background-color: rgb(17, 15, 15);
+    }
+    p{
+        font-size: small;
+        align-items: baseline;
+        line-height: 1;
+    }
+    #ankole-logo1{
+        width: 20%;
+    }
+    h4{
+        font-size: small;
+        line-height: 1;
+    }
+    h3{
+        font-size: large;
+    }
+}
+
+
+@media (min-width: 541px) and (max-width: 768px){
+    body{
+        margin: 0;
+        overflow-x: hidden;
+        width: 100w;
+
+    } 
+    .kitisuru {
+        overflow-y: scroll; 
+        flex-direction: column;
+    }
+    .kitisuru-menu {
+        width: 100vw;
+        height: 40vh;
+        overflow-y: scroll; 
+
+    }
+    #ankole-logo {
+        width: 20%;
+        top: 10%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+.kitisuru-menu-text {
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.food-options{
+    width: 100vw;
+    height: 40px;
+    margin-top: -1%;
+}
+     
+    .kitisuru-menu-list {
+        width: 100vw;
+        height: 60vh;
+    }
+    nav{
+        left: 50%;
+    transform: translate(-50%, -50%);
+    width: 75vw;
+    background-color: rgb(10, 9, 9);
+    }
+    p{
+        font-size: small;
+        align-items: baseline;
+        line-height: 1;
+    }
+    #ankole-logo1{
+        width: 20%;
+    }
+    h4{
+        font-size: small;
+        line-height: 1;
+    }
+    h3{
+        font-size: large;
+    }
+
+}
+
+
+@media (min-width: 769px) and (max-width: 820px){
+    body{
+        margin: 0;
+        overflow-x: hidden;
+        width: 100w;
+
+    } 
+    .kitisuru {
+        overflow-y: scroll; 
+        flex-direction: column;
+    }
+    .kitisuru-menu {
+        width: 100vw;
+        height: 40vh;
+        overflow-y: scroll; 
+
+    }
+    #ankole-logo {
+        width: 20%;
+        top: 10%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+.kitisuru-menu-text {
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.food-options{
+    width: 89vw;
+    height: 40px;
+    margin-top: -1%;
+}
+     
+    .kitisuru-menu-list {
+        width: 100vw;
+        height: 60vh;
+    }
+    nav{
+        left: 50%;
+    transform: translate(-50%, -50%);
+    width: 75vw;
+    background-color: rgb(10, 9, 9);
+    }
+    p{
+        font-size: small;
+        align-items: baseline;
+        line-height: 1;
+    }
+    #ankole-logo1{
+        width: 20%;
+    }
+    h4{
+        font-size: small;
+        line-height: 1;
+    }
+    h3{
+        font-size: large;
+    }
+    #whatsapp{
+        position: fixed;
+        top: 50vh;
+        right: 70vh;
+    }
+
+}
+
+
+@media (width: 912px){
+    body{
+        margin: 0;
+        overflow-x: hidden;
+        width: 100w;
+
+    } 
+    .kitisuru {
+        overflow-y: scroll; 
+        flex-direction: column;
+    }
+    .kitisuru-menu {
+        width: 100vw;
+        height: 40vh;
+        overflow-y: scroll; 
+
+    }
+    #ankole-logo {
+        width: 20%;
+        top: 10%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+.kitisuru-menu-text {
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.food-options{
+    width: 89vw;
+    height: 40px;
+    margin-top: -1%;
+}
+     
+    .kitisuru-menu-list {
+        width: 100vw;
+        height: 60vh;
+    }
+    nav{
+        left: 50%;
+    transform: translate(-50%, -50%);
+    width: 75vw;
+    background-color: rgb(10, 9, 9);
+    }
+    p{
+        font-size: small;
+        align-items: baseline;
+        line-height: 1;
+    }
+    #ankole-logo1{
+        width: 20%;
+    }
+    h4{
+        font-size: small;
+        line-height: 1;
+    }
+    h3{
+        font-size: large;
+    }
+    #whatsapp{
+        position: fixed;
+        top: 50vh;
+        right: 70vh;
+    }
+
+}
+@media (width: 853px){
+    .food-options{
+        width: 48vw;
+        height: 40px;
+        margin-top: -1%;
+    }
+    p{
+        line-height: 1;
+    }
+    h4{
+        font-size: small;
+        line-height: 1;
+    }
+    nav{
+        left: 50vw;
+        width: 80vw;
+    }
+}
+@media (width: 1280px){
+    .food-options{
+        width: 48vw;
+        height: 40px;
+        margin-top: -1%;
+    }
+    h4{
+        font-size: small;
+        line-height: 1;
+    }
+    nav{
+        left: 50vw;
+        width: 80vw;
+    }
+}
+@media (width: 1024px){
+    .food-options{
+        width: 48vw;
+        height: 40px;
+        margin-top: -1%;
+    }
+    h4{
+        font-size: small;
+        line-height: 1;
+    }
+    nav{
+        left: 50vw;
+        width: 80vw;
+    }
+}
+
