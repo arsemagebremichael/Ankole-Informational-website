@@ -82,6 +82,57 @@ nav{
     color: white;
 
 }
+#whatsapp{
+    color: rgb(245, 241, 241);
+    position: absolute;
+    position: fixed;
+    right: 2%;
+    bottom: 6%;
+    z-index: 10;
+    padding: 0.5% 0.7%;
+    border-radius: 50%;
+    border: 1px solid rgb(104, 102, 102);
+    font-size: xx-large;
+    background-color: rgb(22, 20, 20);
+    a{
+        text-decoration: none;
+        z-index: 5;
+        color: white;
+        text-decoration: none;
+        cursor: pointer;
+
+    }
+} 
+.social-media-platforms {
+    right: 2%;
+    display: flex;
+    position: absolute;
+    width: 4%;
+    justify-content: space-between;
+    margin-top: 3%;
+    a {
+        text-decoration: none;
+        z-index: 5;
+        color: white;
+        text-decoration: none;
+        cursor: pointer;
+    }
+
+}
+#socials {
+    
+    display: flex;
+    color: white;
+    padding: 10px;
+    border: 1px solid gray;
+    z-index: 10;
+    background-color: transparent(245, 252, 252);
+    border-radius: 50%;
+    padding: 10% 12%;
+    font-size: medium;
+   
+} 
+
 .kitisuru-menu-text{
     position: absolute;
     top: 50%;
@@ -111,7 +162,6 @@ h4{
 }
 h3{
     font-family: nutino;
-    font-weight: ;
     text-decoration: none;
     line-height: 0;
     font-size: xx-large;
@@ -121,7 +171,8 @@ p{
     font-family: nutino;
     color: white;
 }
-@media (width: 375px){
+
+@media (max-width: 375px){
     body{
         margin: 0;
         overflow-x: hidden;
@@ -148,8 +199,11 @@ height: 70vh;
     flex-direction: column;
  }
  #socials{
+
     margin-top: 5%;
-    font-size: xx-large;
+    left: 10%;
+    font-size: large;
+    align-items: center;
  }
  .kitisuru-menu-text{
     left: 50%;
@@ -164,10 +218,522 @@ left: 50%;
     position: absolute;
     top: 70%;
 }
-#whatsapp{
 
+.hide{
+    display: none;
 }
 .fa-brands{
     padding: 5;
 }
+}
+@media (width:390px){
+    body{
+        margin: 0;
+        overflow-x: hidden;
+        overflow-y: scroll;
+        width: 100vw;
+
+    }
+ .menu{
+    flex-direction: column;
+ }
+ .kitisuru-menu {
+width: 100%;
+height: 70vh;
+ }   
+ .kilimani-menu{
+    width: 100%;
+    height: 70vh;
+
+ }
+ .tag-lines{
+    right: 5%;
+ }
+ .social-media-platforms{
+    flex-direction: column;
+ }
+ #socials{
+
+    margin-top: 5%;
+    left: 10%;
+    font-size: large;
+    align-items: center;
+ }
+ .kitisuru-menu-text{
+    left: 50%;
+    padding-top: 10%;
+    position: absolute;
+    top: 30%;
+ }
+.kilimani-menu-text{
+
+left: 50%;
+    padding-top: 10%;
+    position: absolute;
+    top: 70%;
+}
+
+.hide{
+    display: none;
+}
+.fa-brands{
+    padding: 5;
+}
+}
+@media (width:412px){
+    body{
+        margin: 0;
+        overflow-x: hidden;
+        overflow-y: scroll;
+        width: 100vw;
+
+    }
+ .menu{
+    flex-direction: column;
+ }
+ .kitisuru-menu {
+width: 100%;
+height: 70vh;
+ }   
+ .kilimani-menu{
+    width: 100%;
+    height: 70vh;
+
+ }
+ .tag-lines{
+    right: 5%;
+ }
+ .social-media-platforms{
+    flex-direction: column;
+ }
+ #socials{
+
+    margin-top: 5%;
+    left: 10%;
+    font-size: large;
+    align-items: center;
+ }
+ .kitisuru-menu-text{
+    left: 50%;
+    padding-top: 10%;
+    position: absolute;
+    top: 30%;
+ }
+.kilimani-menu-text{
+
+left: 50%;
+    padding-top: 10%;
+    position: absolute;
+    top: 70%;
+}
+
+.hide{
+    display: none;
+}
+.fa-brands{
+    padding: 5;
+}
+}
+@media (width:430px){
+    body{
+        margin: 0;
+        overflow-x: hidden;
+        overflow-y: scroll;
+        width: 100vw;
+
+    }
+ .menu{
+    flex-direction: column;
+ }
+ .kitisuru-menu {
+width: 100%;
+height: 70vh;
+ }   
+ .kilimani-menu{
+    width: 100%;
+    height: 70vh;
+
+ }
+ .tag-lines{
+    right: 5%;
+ }
+ .social-media-platforms{
+    flex-direction: column;
+ }
+ #socials{
+
+    margin-top: 5%;
+    left: 10%;
+    font-size: large;
+    align-items: center;
+ }
+ .kitisuru-menu-text{
+    left: 50%;
+    padding-top: 10%;
+    position: absolute;
+    top: 30%;
+ }
+.kilimani-menu-text{
+
+left: 50%;
+    padding-top: 10%;
+    position: absolute;
+    top: 70%;
+}
+
+.hide{
+    display: none;
+}
+.fa-brands{
+    padding: 5;
+}
+}
+@media (width:414px){
+    body{
+        margin: 0;
+        overflow-x: hidden;
+        overflow-y: scroll;
+        width: 100vw;
+
+    }
+ .menu{
+    flex-direction: column;
+ }
+ .kitisuru-menu {
+width: 100%;
+height: 70vh;
+ }   
+ .kilimani-menu{
+    width: 100%;
+    height: 70vh;
+
+ }
+ .tag-lines{
+    right: 5%;
+ }
+ .social-media-platforms{
+    flex-direction: column;
+ }
+ #socials{
+
+    margin-top: 5%;
+    left: 10%;
+    font-size: large;
+    align-items: center;
+ }
+ .kitisuru-menu-text{
+    left: 50%;
+    padding-top: 10%;
+    position: absolute;
+    top: 30%;
+ }
+.kilimani-menu-text{
+
+left: 50%;
+    padding-top: 10%;
+    position: absolute;
+    top: 70%;
+}
+
+.hide{
+    display: none;
+}
+.fa-brands{
+    padding: 5;
+}
+}
+@media (width:768px){
+    body{
+        margin: 0;
+        overflow-x: hidden;
+        overflow-y: scroll;
+        width: 100vw;
+
+    }
+ .menu{
+    flex-direction: column;
+ }
+ .kitisuru-menu {
+width: 100%;
+height: 70vh;
+ }   
+ .kilimani-menu{
+    width: 100%;
+    height: 70vh;
+
+ }
+ .tag-lines{
+    right: 5%;
+ }
+ .social-media-platforms{
+    flex-direction: column;
+ }
+ #socials{
+
+    margin-top: 5%;
+    left: 10%;
+    font-size: large;
+    align-items: center;
+ }
+ .kitisuru-menu-text{
+    left: 50%;
+    padding-top: 10%;
+    position: absolute;
+    top: 30%;
+ }
+.kilimani-menu-text{
+
+left: 50%;
+    padding-top: 10%;
+    position: absolute;
+    top: 70%;
+}
+
+.hide{
+    display: none;
+}
+.fa-brands{
+    padding: 5;
+}
+}
+@media (width:820px){
+    body{
+        margin: 0;
+        overflow-x: hidden;
+        overflow-y: scroll;
+        width: 100vw;
+
+    }
+ .menu{
+    flex-direction: column;
+ }
+ .kitisuru-menu {
+width: 100%;
+height: 70vh;
+ }   
+ .kilimani-menu{
+    width: 100%;
+    height: 70vh;
+
+ }
+ .tag-lines{
+    right: 5%;
+ }
+ .social-media-platforms{
+    flex-direction: column;
+ }
+ #socials{
+
+    margin-top: 5%;
+    left: 10%;
+    font-size: large;
+    align-items: center;
+ }
+ .kitisuru-menu-text{
+    left: 50%;
+    padding-top: 10%;
+    position: absolute;
+    top: 30%;
+ }
+.kilimani-menu-text{
+
+left: 50%;
+    padding-top: 10%;
+    position: absolute;
+    top: 70%;
+}
+
+.hide{
+    display: none;
+}
+.fa-brands{
+align-items: center;}
+}
+@media (width:912px){
+    body{
+        margin: 0;
+        overflow-x: hidden;
+        overflow-y: scroll;
+        width: 100vw;
+
+    }
+    #ankole-logo{
+        top: 20%;
+        width: 20%;
+    }
+ .menu{
+    flex-direction: column;
+ }
+ .kitisuru-menu {
+width: 100%;
+height: 50vh;
+ }   
+ .kilimani-menu{
+    width: 100%;
+    height: 50vh;
+
+ }
+ .tag-lines{
+    right: 5%;
+ }
+ .social-media-platforms{
+    flex-direction: column;
+ }
+ #socials{
+
+    margin-top: 5%;
+    left: 10%;
+    font-size: large;
+    align-items: center;
+ }
+ .kitisuru-menu-text{
+    left: 50%;
+    padding-top: 10%;
+    position: absolute;
+    top: 30%;
+ }
+.kilimani-menu-text{
+
+left: 50%;
+    padding-top: 10%;
+    position: absolute;
+    top: 70%;
+}
+
+.hide{
+    display: none;
+}
+.fa-brands{
+align-items: center;}
+}
+
+@media (width:540px){
+    body{
+        margin: 0;
+        overflow-x: hidden;
+        overflow-y: scroll;
+        width: 100vw;
+
+    }
+ .menu{
+    flex-direction: column;
+ }
+ .kitisuru-menu {
+width: 100%;
+height: 60vh;
+ }   
+ .kilimani-menu{
+    width: 100%;
+    height: 70vh;
+
+ }
+ .tag-lines{
+    right: 5%;
+ }
+ .social-media-platforms{
+    flex-direction: column;
+ }
+ #socials{
+
+    margin-top: 5%;
+    left: 10%;
+    font-size: large;
+    align-items: center;
+ }
+ .kitisuru-menu-text{
+    left: 50%;
+    padding-top: 10%;
+    position: absolute;
+    top: 30%;
+ }
+.kilimani-menu-text{
+
+left: 50%;
+    padding-top: 10%;
+    position: absolute;
+    top: 70%;
+}
+
+.hide{
+    display: none;
+}
+.fa-brands{
+    padding: 5;
+}
+}
+@media (width:853px){
+    body{
+        margin: 0;
+        overflow-x: hidden;
+        overflow-y: scroll;
+        width: 100vw;
+
+    }
+ .menu{
+    flex-direction: column;
+ }
+ .kitisuru-menu {
+width: 100%;
+height: 50vh;
+ }   
+ .kilimani-menu{
+    width: 100%;
+    height: 50vh;
+
+ }
+ .tag-lines{
+    right: 5%;
+ }
+ .social-media-platforms{
+    flex-direction: column;
+ }
+ #socials{
+
+    margin-top: 5%;
+    left: 10%;
+    font-size: large;
+    align-items: center;
+ }
+ .kitisuru-menu-text{
+    left: 50%;
+    padding-top: 10%;
+    position: absolute;
+    top: 30%;
+ }
+.kilimani-menu-text{
+
+left: 50%;
+    padding-top: 10%;
+    position: absolute;
+    top: 70%;
+}
+
+.hide{
+    display: none;
+}
+.fa-brands{
+    padding: 5;
+}
+#ankole-logo {
+    top:15%
+}
+}
+
+@media (width:1024px)
+{
+    
+    nav{
+        width: 60vw;
+    }
+}
+@media (width:1280px)
+{
+    body{
+        height: 90vh;
+        overflow: hidden;
+        
+    }
+    nav{
+        width: 60vw;
+    }
 }

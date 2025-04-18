@@ -185,3 +185,18 @@ h3{
     padding: 0 8%;
 
 }
+@media (max-width: 375px){
+    body{
+        margin: 0;
+        overflow-x: hidden;
+        overflow-y: scroll;
+        width: 100vw;
+
+    } 
+    .menu{
+        flex-direction: column;
+     }
+     .hide{
+        display: none;
+    }
+}
