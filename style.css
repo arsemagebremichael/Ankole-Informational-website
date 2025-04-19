@@ -294,13 +294,13 @@ h1 {
             }
             h1{
                 padding-top: 40%;
-                font-size: 600%;
+                font-size: xx-large;
             }
             
         
         }
     
-    @media  (min-width: 415px) and (max-width: 414px)
+    /* @media  (min-width: 415px) and (max-width: 414px)
     {#ankole-logo{
         width: 40%;
         padding-top: 30%;
@@ -342,8 +342,8 @@ h1 {
             
         
         }
-    
-@media (min-width: 415) and (max-width:429px) {
+     */
+@media (min-width: 415px) and (max-width:430px) {
 body{
     max-width: 150vh;
     height: 100vh;
@@ -387,7 +387,7 @@ body{
     }
 
 }
-@media (min-width: 430px) and (max-width: 539px)
+@media (min-width: 431px) and (max-width: 539px)
 {
     #ankole-logo{
         width: 50%;
@@ -450,7 +450,7 @@ body{
         font-size: 50px;
     }
     nav{
-        height: 65px;
+        height: 40px;
         top: 90vh;
         position: absolute;
         left: 50%;
@@ -499,12 +499,12 @@ body{
     }
    
 }
-@media (min-width: 1024px) and (min-width: 1027px){
+@media (width: 1024px) {
     #ankole-logo{
         width: 20%;
     }
     nav{
-        height: 65px;
+        height: 40px;
         top: 90vh;
         position: absolute;
         left: 50%;
@@ -517,12 +517,30 @@ body{
     }
    
 }
-@media (min-width: 1028px) {
+@media (min-width: 1025px) and (max-width: 1280px) {
+    #ankole-logo{
+        width: 20%;
+    }
+    nav{
+        height: 40px;
+        top: 90vh;
+        position: absolute;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 70vw;
+
+    }
+    h1{
+        font-size: 600%;
+    }
+   
+}
+/* @media (width: 1028px) {
     #ankole-logo{
         width: 50%;
     }
     nav{
-        height: 65px;
+        height: 24px;
         top: 90vh;
         position: absolute;
         left: 50%;
@@ -531,5 +549,5 @@ body{
 
     }
    
-}
+} */
 
