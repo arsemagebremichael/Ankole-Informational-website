@@ -258,12 +258,12 @@ h3{
     }
 
 .kitisuru-menu-text {
-    top: 20%;
+    top: 25%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
 .food-options{
-    margin-top: -10%;
+    margin-top: -1%;
     width: 56vh;
 }
      .hide{
@@ -276,8 +276,8 @@ h3{
     nav{
         left: 50%;
     transform: translate(-50%, -50%);
-    width: 35vw;
-    background-color: rgb(33, 32, 32);
+    width:60vw;
+    background-color: rgb(12, 12, 12);
     }
     p{
         font-size: small;
@@ -318,12 +318,19 @@ h3{
 
     }
     #ankole-logo {
-        width: 20%;
+        width: 29%;
         top: 10%;
         left: 50%;
         transform: translate(-50%, -50%);
     }
+    nav {
+        padding: 5%;
+        width:50vw;
+        left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgb(14, 13, 13);
 
+    }
 .kitisuru-menu-text {
     top: 30%;
     left: 50%;
@@ -341,12 +348,7 @@ h3{
         width: 100vw;
         height: 60vh;
     }
-    nav{
-        left: 50%;
-    transform: translate(-50%, -50%);
-    width: 30vw;
-    background-color: rgb(14, 13, 13);
-    }
+   
     p{
         font-size: small;
         align-items: baseline;
@@ -409,8 +411,9 @@ h3{
     nav{
         left: 50%;
     transform: translate(-50%, -50%);
-    width: 30vw;
-    background-color: rgb(17, 15, 15);
+    background-color: rgb(11, 11, 11);
+    padding: 3%;
+    width:50vw;
     }
     p{
         font-size: small;

@@ -1,0 +1,249 @@
+* Ensure base styles for smaller screens */
+body {
+  overflow-x: hidden;
+}
+/* Media query for screens 375px and below */
+@media only screen and (max-width: 375px) {
+  body {
+    width: 100vw;
+    height: auto;
+    background-size: cover;
+    background-position: center;
+  }
+  /* Logo */
+  #ankole-logo {
+    top: 15%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 30vw;
+    position: fixed;
+  }
+  /* Tukative container */
+  .tukative-container {
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+  }
+  .tulatikeLive {
+    width: 100%;
+    height: 50vh;
+    position: relative;
+  }
+  /* Tukative Live text */
+  .tukatikeLive-text {
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  .tukatikeLive-text h3 {
+    font-size: large;
+  }
+  .tukatikeLive-text h2 {
+    font-size: 2rem;
+  }
+  /* Navigation */
+  nav {
+    width: 90%;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 10px;
+    padding: 1% 2%;
+    font-size: small;
+    border-radius: 1.5rem;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  nav a {
+    padding: 5px;
+    font-size: 12px;
+  }
+  nav i {
+    font-size: 12px;
+  }
+  #reservations-button {
+    padding: 5px 10px;
+    font-size: 12px;
+  }
+  /* Hide menu content by default for mobile */
+  .menu-content,
+  .opening-hours-detail {
+    display: none;
+  }
+  /* Live lists */
+  .live-lists {
+    width: 100%;
+    height: auto;
+    padding-top: 5%;
+    padding-bottom: 20%;
+  }
+  .live-details {
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 10%;
+    text-align: center;
+  }
+  .live-details img {
+    width: 80vw;
+    max-width: 300px;
+    height: auto;
+    border-radius: 0.5rem;
+  }
+  .live-details a {
+    width: 80vw;
+    max-width: 300px;
+  }
+  #kokoImg,
+  #akothImg,
+  #nomadsImg {
+    padding: 2%;
+    width: 80vw;
+    max-width: 300px;
+  }
+  .live-details p {
+    font-size: 12px;
+  }
+  .live-details h1 {
+    font-size: 1.2rem;
+    margin-top: 5px;
+  }
+  /* WhatsApp icon */
+  #whatsapp {
+    position: fixed;
+    bottom: 80px;
+    right: 10px;
+    font-size: 24px;
+    background-color: black;
+    border-radius: 50%;
+    padding: 10px;
+    color: white;
+  }
+}
+/* Media query for screens between 376px and 768px (e.g., tablets, larger phones) */
+@media only screen and (min-width: 376px) and (max-width: 768px) {
+  body {
+    background-size: cover;
+    background-position: center;
+  }
+  #ankole-logo {
+    top: 20%;
+    left: 50%;
+    width: 25vw;
+  }
+  .tukative-container {
+    flex-direction: column;
+    width: 100%;
+  }
+  .tulatikeLive {
+    width: 100%;
+    height: 60vh;
+  }
+  .tukatikeLive-text {
+    top: 35%;
+    left: 50%;
+  }
+  .tukatikeLive-text h3 {
+    font-size: x-large;
+  }
+  .tukatikeLive-text h2 {
+    font-size: 3rem;
+  }
+  nav {
+    width: 80%;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 15px;
+    font-size: medium;
+    padding: 1% 2%;
+  }
+  nav a {
+    font-size: 14px;
+    padding: 8px;
+  }
+  .live-lists {
+    width: 100%;
+    padding-top: 5%;
+    padding-bottom: 15%;
+  }
+  .live-details {
+    flex-direction: row;
+    gap: 15px;
+    margin-top: 8%;
+    align-items: flex-start;
+  }
+  .live-details img {
+    width: 40vw;
+    max-width: 200px;
+    height: auto;
+  }
+  .live-details a {
+    width: 40vw;
+    max-width: 200px;
+  }
+  #kokoImg,
+  #akothImg,
+  #nomadsImg {
+    padding: 1.5%;
+    width: 40vw;
+    max-width: 200px;
+  }
+  .live-details h1 {
+    font-size: 1.5rem;
+  }
+  .live-details p {
+    font-size: 14px;
+  }
+  #whatsapp {
+    bottom: 90px;
+    right: 15px;
+    font-size: 28px;
+    padding: 12px;
+  }
+}
+/* Media query for screens between 769px and 1200px (e.g., small laptops) */
+@media only screen and (min-width: 769px) and (max-width: 1200px) {
+  #ankole-logo {
+    top: 22%;
+    width: 20vw;
+  }
+  .tukative-container {
+    flex-direction: row;
+  }
+  .tulatikeLive {
+    width: 50%;
+  }
+  .live-lists {
+    width: 50%;
+    padding-bottom: 10%;
+  }
+  .tukatikeLive-text h2 {
+    font-size: 3.5rem;
+  }
+  nav {
+    width: 40%;
+    font-size: medium;
+  }
+  .live-details img {
+    width: 20vw;
+    max-width: 180px;
+  }
+  .live-details a {
+    width: 20vw;
+    max-width: 180px;
+  }
+  #kokoImg,
+  #akothImg,
+  #nomadsImg {
+    width: 20vw;
+    max-width: 180px;
+  }
+  .live-details h1 {
+    font-size: 1.8rem;
+  }
+  #whatsapp {
+    bottom: 100px;
+    right: 20px;
+    font-size: 30px;
+    padding: 15px;
+  }
+}

@@ -45,7 +45,15 @@ body{
     border: 1px solid rgb(104, 102, 102);
     font-size: xx-large;
     background-color: rgb(22, 20, 20);
-}
+    a{
+        text-decoration: none;
+        z-index: 5;
+        color: white;
+        text-decoration: none;
+        cursor: pointer;
+
+    }
+} 
 nav {
     z-index: 7;
     position: absolute;
@@ -180,9 +188,20 @@ h1{
         display: none;
     }
     nav{
+        height: 40px;
         background-color: rgb(22, 21, 21);
-        padding-right: 15%;
+        padding-right: 8%;
         gap: 15%;
+        width: 60vw;
+    }
+    a{
+        text-decoration: none;
+        z-index: 5;
+        color: white;
+    }
+    #reservations-button {
+        padding: 3% 2.5%;
+
     }
 }
 
@@ -224,7 +243,7 @@ h1{
         font-size: 200%
     }
 }
-@media (min-width: 913px) and (max-width: 1023px){
+@media (min-width: 913px) and (max-width: 1280px){
 body{
     background-color: black;
 }
@@ -232,11 +251,12 @@ img{
     height: 75vh;
 }
 nav{
-    width: 65vh;
+    width: 90vw;
     background-color: rgb(24, 23, 23);
     
 }
 #whatsapp{
     font-size: 200%;
 }
+
 }

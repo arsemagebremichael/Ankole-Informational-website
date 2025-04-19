@@ -89,9 +89,10 @@ body {
 
 nav {
     font-family: nutino;
-    position: fixed;
+   
     z-index: 7;
     position: absolute;
+    position: fixed;
     bottom: 1%;
     left: 50%;
     transform: translate(-50%, -50%);
@@ -193,6 +194,27 @@ h1 {
 
     }
 }
+#whatsapp{
+    color: rgb(245, 241, 241);
+    position: absolute;
+    position: fixed;
+    right: 2%;
+    bottom: 6%;
+    z-index: 10;
+    padding: 0.5% 0.7%;
+    border-radius: 50%;
+    border: 1px solid rgb(104, 102, 102);
+    font-size: xx-large;
+    background-color: rgb(22, 20, 20);
+    a{
+        text-decoration: none;
+        z-index: 5;
+        color: white;
+        text-decoration: none;
+        cursor: pointer;
+
+    }
+} 
 @media (max-width: 375px){
     body{
         overflow: hidden;
@@ -203,24 +225,30 @@ h1 {
        
     }
     .social-media-platforms {
+
+        width: 7vh;
         align-items: center;
         flex-direction: column;
     
+    }
+    #socials{
+        margin-bottom: 1vh;
     }
     h1{
         font-size: xxx-large;
     }
     nav{
-        width:45vw;
+        width:50vw;
     }
     .hide{
         display: none;
     }
+
 }
 @media (min-width: 376px) and  (max-width: 390px)
 {
     body{
-        max-width: 150vh;
+        max-width: 100vw;
         height: 100vh;
         overflow: hidden;
         
@@ -233,6 +261,8 @@ h1 {
     }
     nav{
     height: 20px;
+    padding: 5%;
+
     }
     .background{
         height: 100vh;
@@ -244,13 +274,11 @@ h1 {
         }
         .background{
             h1{
-                font-size: xxx-large;
+                padding-top: 5;
+                font-size: 500%;
             }
         }
-        nav {
-            padding: 5%;
-    
-        }
+        
         .hide{
             display: none;
         }
@@ -280,23 +308,27 @@ h1 {
                 width: 50%;
         
             }
-            .background{
-                h1{
-                    font-size: xxx-large;
-                }
-            }
+            
             nav {
                 padding: 5%;
-        
+                width:50vw;
             }
             .hide{
                 display: none;
             }
             h1{
-                padding-top: 40%;
-                font-size: xx-large;
+                padding-top: 30%;
+                font-size: 400%;
             }
-            
+            .social-media-platforms {
+
+                width: 7vh;
+                align-items: center;
+                flex-direction: column;
+            }
+            #socials{
+                margin-bottom: 1vh;
+            }            
         
         }
     
@@ -357,10 +389,14 @@ body{
    
 }
 .social-media-platforms {
+
+    width: 7vh;
     align-items: center;
     flex-direction: column;
-
 }
+#socials{
+    margin-bottom: 1vh;
+}  
 .background{
     height: 100vh;
     width: 100vw;
@@ -369,13 +405,10 @@ body{
         width: 50%;
 
     }
-    .background{
-        h1{
-            font-size: xxx-large;
-        }
-    }
+    
+    
     nav {
-        padding: 5%;
+        padding: %;
 
     }
     .hide{
@@ -383,10 +416,11 @@ body{
     }
     
     h1{
-        padding-top: 40%;
+        font-size: 400%;
+        padding-top: 10%;
     }
-
 }
+
 @media (min-width: 431px) and (max-width: 539px)
 {
     #ankole-logo{
@@ -413,7 +447,7 @@ body{
     
 
 }
-@media (width: 768px){
+/* @media (width: 768px){
     #ankole-logo{
         width: 50%;
     }
@@ -433,7 +467,7 @@ body{
         width: 90vw;
 
     }
-}
+} */
 @media (min-width: 540px) and (max-width: 819px){
    body{
     width: 540px;
@@ -472,7 +506,12 @@ body{
         left: 90vw;
         flex-direction: column;
         font-size: 50px;
+        width: 7vh;
     }
+   
+    #socials{
+        margin-bottom: 1vh;
+    } 
     nav{
         height: 65px;
         top: 90vh;
@@ -500,11 +539,14 @@ body{
    
 }
 @media (width: 1024px) {
+    body{
+        height: 100vh;
+    }
     #ankole-logo{
-        width: 20%;
+        width: 30%;
     }
     nav{
-        height: 40px;
+        height: 60px;
         top: 90vh;
         position: absolute;
         left: 50%;
@@ -513,7 +555,19 @@ body{
 
     }
     h1{
-        font-size: 600%;
+        font-size: 700%;
+    }
+    .social-media-platforms {
+        align-items: center;
+        position: absolute;
+        left: 94vw;
+        flex-direction: column;
+        font-size: 50px;
+        width: 7vh;
+    }
+   
+    #socials{
+        margin-bottom: 1vh;
     }
    
 }

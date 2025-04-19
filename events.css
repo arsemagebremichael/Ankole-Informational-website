@@ -150,6 +150,11 @@ nav {
     font-family: nutino;
 }
 @media (max-width: 430px){
+    nav{
+        width:50vw;
+        padding: 3%;
+
+    }
     body{
 overflow: scroll;    }
     
@@ -161,16 +166,19 @@ overflow: scroll;    }
  .place{
     width: 100vw;
  }.social-media-platforms{
+    width: 7vh;
+    align-items: center;
     flex-direction: column;
  }
  .hide{
     display: none;
  }
+ #socials{
+    margin-bottom: 1vh;
+}
  
 }
-@media width() {
-    
-}
+
 @media (width: 540px) {
     #ankole-logo{
         top: 20%;
@@ -223,6 +231,15 @@ nav{
     #ankole-logo{
         top: 20%;
     }
+    .social-media-platforms {
+
+        width: 7vh;
+        align-items: center;
+        flex-direction: column;
+    }
+    #socials{
+        margin-bottom: 1vh;
+    }
     body{
 overflow: scroll;    }
     
@@ -233,22 +250,48 @@ overflow: scroll;    }
     width: 100vw;
     padding-top: 30vh;
     padding-bottom: 50%;
- }.social-media-platforms{
-    flex-direction: column;
-    align-items: center;
- }
-nav{
-    width: 70vw;
-}
+ }nav{
+        height: 65px;
+        top: 90vh;
+        position: absolute;
+        position: fixed;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 90vw;
+
+    }
  
 }
 @media(min-width: 1024px) and (max-width: 1400px){
     .place{
         width: 100vw;
-        padding-top: 100%;
+        
         padding-bottom: 50%;
+
      }
      nav{
-        width: 65vh;
-     }
+        height: 60px;
+        top: 90vh;
+        position: absolute;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 70vw;
+
+    }
+    h1{
+        font-size: 200%;
+    }
+    .social-media-platforms {
+        align-items: center;
+        position: absolute;
+        left: 94vw;
+        flex-direction: column;
+        font-size: 50px;
+        width: 7vh;
+    }
+   
+    #socials{
+        margin-bottom: 1vh;
+    }
+     
 }

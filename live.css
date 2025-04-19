@@ -1,13 +1,14 @@
-body{
+body {
     width: 100vw;
     display: flex;
     overflow-y: scroll;
     overflow-x: hidden;
     background-repeat: repeat-y;
     background-size: cover;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(12, 12, 12, 0.5)), url(imagesandfonts/live.jpg) ;
-    
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(12, 12, 12, 0.5)), url(imagesandfonts/live.jpg);
+
 }
+
 #ankole-logo {
     top: 25%;
     left: 25%;
@@ -15,23 +16,25 @@ body{
     z-index: 1;
     position: absolute;
     width: 22vb;
-    position: fixed;
 
 }
-.tukative-container{
-   display: flex;
-   background-size: cover;
+
+.tukative-container {
+    display: flex;
+    background-size: cover;
 
 }
-.tulatikeLive{
+
+.tulatikeLive {
     width: 50vw;
 }
 
 nav {
     font-family: nutino;
-    position: fixed;
     z-index: 7;
     position: absolute;
+    position: fixed;
+
     bottom: 1%;
     left: 25%;
     transform: translate(-50%, -50%);
@@ -45,9 +48,11 @@ nav {
     align-items: center;
     cursor: pointer;
     font-size: large;
-    a:hover{
+
+    a:hover {
         color: gray;
     }
+
     a {
         text-decoration: none;
         z-index: 5;
@@ -61,14 +66,13 @@ nav {
     }
 }
 
-.tukatikeLive-text{
+.tukatikeLive-text {
     position: absolute;
     top: 50%;
     left: 25%;
     transform: translate(-50%, -50%);
     line-height: 0;
     text-align: center;
-    position: fixed;
 
     h3 {
         font-weight: lighter;
@@ -83,63 +87,671 @@ nav {
         color: rgb(255, 68, 0);
     }
 }
-.live-lists{
-padding-bottom: 10%;
-padding-top: 1%;
-height: 100vh;
-width: 50vw;
+
+.live-lists {
+    padding-bottom: 10%;
+    padding-top: 1%;
+    height: 100vh;
+    width: 50vw;
 }
-.live-details{
+
+.live-details {
     margin-top: 5%;
     gap: 5%;
     align-items: center;
     display: flex;
     line-height: 1;
-    
-    img{
-        
-        
-    }
-    img:hover{   
-        transition-duration: 1s;   
+
+
+
+    img:hover {
+        transition-duration: 1s;
         border: transparent;
         border-radius: 0.5rem;
         transform: scale(1.09);
     }
-    p{
+
+    p {
         color: rgb(255, 72, 0);
     }
-    h1{
+
+    h1 {
         color: white;
         margin-top: 0;
     }
-    
+
 }
-#kokoImg{
+
+#kokoImg {
     padding: 1%;
     background-color: rgb(172, 151, 172);
     border-radius: 0.8rem;
-    img{
-        border-radius: 0.8rem;
-    }
-}
-#akothImg{
-    padding: 1%;
-    background-color: rgb(43, 61, 43);
-    border-radius: 0.8rem;
-    img{
-        border-radius: 0.8rem;
-    }
-}
-#nomadsImg{
-    padding: 1%;
-    background-color: rgb(64, 117, 62);
-    border-radius: 0.8rem;
-    img{
+
+    img {
         border-radius: 0.8rem;
     }
 }
 
-@media  (max-width:430px){
-    
+#akothImg {
+    padding: 1%;
+    background-color: rgb(43, 61, 43);
+    border-radius: 0.8rem;
+
+    img {
+        border-radius: 0.8rem;
+    }
+}
+
+#nomadsImg {
+    padding: 1%;
+    background-color: rgb(64, 117, 62);
+    border-radius: 0.8rem;
+
+    img {
+        border-radius: 0.8rem;
+    }
+}
+
+@media (max-width:375px) {
+    body {
+        background-position: center;
+        width: 100vw;
+        height: auto;
+        background-size: cover;
+        background: black;
+    }
+
+    #ankole-logo {
+        top: 15%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 30vw;
+    }
+
+    .tukative-container {
+        margin-top: 90%;
+        flex-direction: column;
+        height: auto;
+        width: 100%;
+    }
+
+    .tukatikeLive-text {
+        top: 35%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+
+
+        h2 {
+            font-size: xx-large;
+        }
+
+        h3 {
+            font-size: xxx-large;
+        }
+
+    }
+
+    nav {
+        width: 50vw;
+        left: 50%;
+        bottom: 5vh;
+        transform: translate(-50%, -50%);
+        padding: 1% 2%;
+        flex-wrap: wrap;
+        font-size: small;
+
+        a {
+            font-size: medium;
+            padding: 5px;
+        }
+
+        i {
+            font-size: medium;
+        }
+
+    }
+
+    #reservation-button {
+        padding: 5px 10px;
+        font-size: 12px;
+    }
+
+    .menu-content,
+    .opening-hours-detail {
+        display: none;
+    }
+
+    .live-lists {
+        width: 100%;
+        height: auto;
+        padding-top: 5%;
+        padding-bottom: 20%;
+
+        margin-top: 10%;
+        margin-left: 5%;
+    }
+
+    .live-details img {
+        width: 20vw;
+        max-width: 300px;
+        height: auto;
+        border-radius: 0.5rem;
+    }
+
+    .live-details a {
+        width: 80vw;
+        max-width: 300px;
+    }
+
+    #kokoImg,
+    #akothImg,
+    #nomadsImg {
+        width: 20vw;
+        max-width: 300px;
+    }
+
+    .live-details p {
+        font-size: medium;
+
+    }
+
+    .live-details h1 {
+
+        font-size: large;
+        width: 65vw;
+    }
+
+    #whatsapp {
+        position: fixed;
+        bottom: 40px;
+        left: 85vw;
+        font-size: 24px;
+        background-color: rgb(22, 22, 22);
+        border-radius: 50%;
+        padding: 10px;
+        color: white;
+    }
+
+    .hide {
+        display: none;
+    }
+}
+
+@media (min-width: 376px) and (max-width: 430px) {
+    body {
+        background-position: center;
+        width: 100vw;
+        height: auto;
+        background-size: cover;
+    }
+
+    #ankole-logo {
+        top: 15%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 30vw;
+    }
+
+    .tukative-container {
+        margin-top: 90%;
+        flex-direction: column;
+        height: auto;
+        width: 100%;
+    }
+
+    .tukatikeLive-text {
+        top: 35%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+
+
+        h2 {
+            font-size: xx-large;
+        }
+
+        h3 {
+            font-size: xxx-large;
+        }
+
+    }
+
+
+    nav {
+        width: 50vw;
+        left: 50%;
+        bottom: 5vh;
+        transform: translate(-50%, -50%);
+        padding: 1% 2%;
+        flex-wrap: wrap;
+        font-size: small;
+
+        a {
+            font-size: medium;
+            padding: 5px;
+        }
+
+        i {
+            font-size: medium;
+        }
+
+    }
+
+    #reservation-button {
+        padding: 5px 10px;
+        font-size: 12px;
+    }
+
+    .menu-content,
+    .opening-hours-detail {
+        display: none;
+    }
+
+    .live-lists {
+        width: 100%;
+        height: auto;
+        padding-top: 5%;
+        padding-bottom: 20%;
+    }
+
+    .live-details img {
+        width: 20vw;
+        max-width: 300px;
+        height: auto;
+        border-radius: 0.5rem;
+    }
+
+    .live-details a {
+        width: 80vw;
+        max-width: 300px;
+    }
+
+    #kokoImg,
+    #akothImg,
+    #nomadsImg {
+        width: 20vw;
+        max-width: 300px;
+    }
+
+    .live-details p {
+        font-size: medium;
+
+    }
+
+    .live-details h1 {
+
+        font-size: large;
+        width: 65vw;
+    }
+
+    #whatsapp {
+        position: fixed;
+        bottom: 40px;
+        left: 85vw;
+        font-size: 24px;
+        background-color: rgb(22, 22, 22);
+        border-radius: 50%;
+        padding: 10px;
+        color: white;
+    }
+
+    .hide {
+        display: none;
+    }
+
+    .live-lists {
+        margin-top: 10%;
+        margin-left: 5%;
+    }
+}
+
+@media (min-width: 540px) and (max-width: 767px) {
+    body {
+        background-position: center;
+        width: 100vw;
+        height: auto;
+        background-size: cover;
+    }
+
+    #ankole-logo {
+        top: 18%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 30vw;
+    }
+
+    .tukative-container {
+        margin-top: 60%;
+        flex-direction: column;
+        height: auto;
+        width: 90%;
+    }
+
+    .tukatikeLive-text {
+        top: 40%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+
+
+        h2 {
+            font-size: x-large;
+        }
+
+        h3 {
+            font-size: 400%;
+        }
+
+    }
+
+    .live-details p {
+        font-size: medium;
+
+    }
+
+    .live-details h1 {
+
+        font-size: large;
+        width: 65vw;
+    }
+
+    nav {
+        background-color: rgb(15, 15, 15);
+        width: 40vw;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        padding: 1% 2%;
+        font-size: x-small;
+
+        a {
+            font-size: medium;
+            padding: 5px;
+        }
+
+        i {
+            font-size: medium;
+        }
+
+
+    }
+
+    .hide {
+        display: none;
+    }
+
+    #reservation-button {
+        padding: 5px 10px;
+        font-size: 12px;
+    }
+
+    .menu-content,
+    .opening-hours-detail {
+        display: none;
+    }
+
+    .live-lists {
+        width: 100%;
+        height: auto;
+        padding-top: 5%;
+        padding-bottom: 20%;
+    }
+
+    .live-details img {
+        width: 40vw;
+        max-width: 300px;
+        height: auto;
+        border-radius: 0.5rem;
+    }
+
+    img:hover {
+        transition-duration: 1s;
+        border: transparent;
+        border-radius: 0.5rem;
+        transform: scale(1.09);
+    }
+
+    .live-details a {
+        width: 80vw;
+        max-width: 300px;
+    }
+
+
+    #akothImg {
+        padding: 2%;
+        width: 40vw;
+        max-width: 300px;
+    }
+
+    #nomadsImg {
+        padding: 2%;
+        width: 40vw;
+        max-width: 300px;
+    }
+
+    #kokoImg {
+        padding: 2%;
+        width: 40vw;
+        max-width: 300px;
+    }
+
+    .live-details p {
+        font-size: medium;
+    }
+
+    .live-details h1 {
+        font-size: x-large;
+        margin-top: 5px;
+    }
+
+    #whatsapp {
+        z-index: 2;
+        position: fixed;
+        bottom: 37px;
+        left: 90vw;
+        font-size: 24px;
+        background-color: rgb(22, 22, 22);
+        border-radius: 50%;
+        padding: 10px;
+        color: white;
+    }
+
+
+}
+
+@media(min-width: 768px) and (max-width: 800px) {
+    body {
+        background-position: center;
+        width: 100vw;
+        height: auto;
+        background-size: cover;
+    }
+
+    #ankole-logo {
+        top: 18%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 30vw;
+    }
+
+    .tukative-container {
+        margin-top: 60%;
+        flex-direction: column;
+        height: auto;
+        width: 90%;
+    }
+
+    .tukatikeLive-text {
+        top: 40%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+
+
+        h2 {
+            font-size: x-large;
+        }
+
+        h3 {
+            font-size: 400%;
+        }
+
+    }
+
+    .live-details p {
+        font-size: medium;
+
+    }
+
+    .live-details h1 {
+
+        font-size: large;
+        width: 65vw;
+    }
+
+    nav {
+
+        height: 50px;
+        position: absolute;
+        background-color: rgb(15, 15, 15);
+        width: 90vw;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        padding: 1% 2%;
+        font-size: x-small;
+
+        a {
+            font-size: medium;
+            padding: 5px;
+        }
+
+        i {
+            font-size: medium;
+        }
+
+
+    }
+
+    #reservation-button {
+        padding: 5px 10px;
+        font-size: 12px;
+    }
+
+    .menu-content,
+    .opening-hours-detail {
+        display: none;
+    }
+
+    .live-lists {
+        width: 100%;
+        height: auto;
+        padding-top: 5%;
+        padding-bottom: 20%;
+    }
+
+    .live-details img {
+        width: 40vw;
+        max-width: 300px;
+        height: auto;
+        border-radius: 0.5rem;
+    }
+
+    img:hover {
+        transition-duration: 1s;
+        border: transparent;
+        border-radius: 0.5rem;
+        transform: scale(1.09);
+    }
+
+    .live-details a {
+        width: 80vw;
+        max-width: 300px;
+    }
+
+
+    #akothImg {
+        padding: 2%;
+        width: 40vw;
+        max-width: 300px;
+    }
+
+    #nomadsImg {
+        padding: 2%;
+        width: 40vw;
+        max-width: 300px;
+    }
+
+    #kokoImg {
+        padding: 2%;
+        width: 40vw;
+        max-width: 300px;
+    }
+
+    .live-details p {
+        font-size: medium;
+    }
+
+    .live-details h1 {
+        font-size: x-large;
+        margin-top: 5px;
+    }
+
+    #whatsapp {
+        z-index: 2;
+        position: fixed;
+        bottom: 37px;
+        left: 90vw;
+        font-size: 24px;
+        background-color: rgb(22, 22, 22);
+        border-radius: 50%;
+        padding: 10px;
+        color: white;
+    }
+}
+
+@media(min-width: 801px) and (max-width: 1280px) {
+
+    nav {
+        width: 90vw;
+        left: 50vw;
+        transform: translate(-50%, -50%);
+    }
+
+    .live-details p {
+        font-size: small;
+    }
+
+    .live-details h1 {
+        font-size: large;
+        margin-top: 5px;
+        width: 20vw;
+
+    }
+
+    .tukatikeLive-text {
+        h3 {
+            font-size: xxx-large;
+        }
+
+        h2 {
+            font-size: 600%;
+        }
+    }
+
+    img {
+        width: 20vw;
+    }
+
+    #akothImg {
+        width: 20vw;
+
+    }
+
+    #nomadsImg {
+        width: 20vw;
+    }
+
+    #kokoImg {
+        width: 20vw;
+    }
 }

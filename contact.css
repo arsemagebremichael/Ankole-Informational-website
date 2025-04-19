@@ -152,23 +152,32 @@ nav {
 
     }
 }
-@media (width: 280px){
+@media (max-width: 280px){
+    .social-media-platforms {
+
+        width: 7vh;
+        align-items: center;
+        flex-direction: column;
+    }
+    #socials{
+        margin-bottom: 1vh;
+    }  
     .social-media-platforms {
         position: absolute;
         left: 80vw;
         top: 5vh;
         align-items: center;
         flex-direction: column;
-        font-size: 30px;
+        font-size: 20px;
     }
     #whatsup{
         position: absolute;
     }
     body{
         padding-bottom: 10%;
-
-        height: 200vh;
-        max-width: 90vw;
+        margin-left: 10%;
+        overflow-y: scroll;
+        height: 150vh;
     }
     .hide{
         display: none;
@@ -190,9 +199,13 @@ nav {
        padding-top: 5%;
        width: 85%;
     }
+   .fa-whatsapp{
+    left: 20%;
+   }
 
+    
 }
-@media (width: 375px){
+@media (min-width: 281px) and (max-width: 411px){
     body{
         overflow-y: scroll;
         height: 120vh;
@@ -218,8 +231,8 @@ nav {
         position: absolute;
         position: fixed;
         top: 90vh;
-        padding: 1%;
-        height: 60px;
+        padding: 3%;
+        height: 40px;
         width: 50%;
     }
     #whatsup{
@@ -227,22 +240,24 @@ nav {
         left: 80vw;
     }
     .social-media-platforms {
-        position: absolute;
-        left: 90vw;
+        width: 7vh;
+        align-items: center;
         flex-direction: column;
-        font-size: 30px;
+    
     }
-    .socials{
-font-size: x-large;    
+    #socials{
+        margin-bottom: 1vh;   
 }
 #reservations-button:hover{
     background-color: white;
+    margin-bottom: 1vh;
+
     color: black;
     
 }
     
 }
-@media (width: 412px){
+@media (max-width: 431px) and (min-width: 412px){
     body{
         overflow-y: scroll;
         height: 120vh;
@@ -269,7 +284,7 @@ font-size: x-large;
         position: fixed;
         top: 90vh;
         padding: 1%;
-        height: 60px;
+        height: 40px;
         width: 50%;
     }
     #whatsup{
@@ -277,13 +292,12 @@ font-size: x-large;
         left: 80vw;
     }
     .social-media-platforms {
-        position: absolute;
-        left: 90vw;
+        width: 7vh;
+        align-items: center;
         flex-direction: column;
-        font-size: 30px;
     }
-    .socials{
-font-size: x-large;    
+   #socials{
+ margin-bottom: 1vh;   
 }
 #reservations-button:hover{
     background-color: white;
@@ -300,7 +314,7 @@ font-size: x-large;
   
 
 
-@media (max-width: 539px) and (min-width: 431){
+@media (max-width: 539px) and (min-width: 431px){
     #ankole-logo{
         width: 35%;
        padding-bottom: 5%;
@@ -353,7 +367,7 @@ font-size: x-large;
     }
 
 }
-@media (max-width: 1024px) and (min-width: 541px){
+@media (max-width: 768px) and (min-width: 541px){
     body{
         overflow-y: hidden;
         height: 70vh;
@@ -387,11 +401,47 @@ font-size: x-large;
         position: absolute;
 
     }
+}
+@media (max-width: 1280px) and (min-width: 767px){
+    body{
+        overflow-y: hidden;
+        height: 100vh;
+        background-size: cover;
+    }
+
+    #ankole-logo{
+        width: 15%;
+       padding-bottom: 5%;
+    }
+    
+    nav{
+        height: 45px;
+        top: 90vh;
+        position: absolute;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 90vw;
+
+    }
+    .social-media-platforms {
+        left: 92vw;
+        width: 7vh;
+        align-items: center;
+        flex-direction: column;
+        
+    }
+    #socials{
+        margin-bottom: 1vh;
+    
+    }
+    .contact-info{
+        margin: auto;
+       width: 90%;
+    }
+    #whatsup{
+        position: absolute;
+
+    }
     
 }
-@media (width:1280px)
-{
-    body{
-        height: 50vh;
-    }
-}
+

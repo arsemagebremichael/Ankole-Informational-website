@@ -47,27 +47,7 @@ html{
 } */
 
 
-/* #whatsapp{
-    color: rgb(245, 241, 241);
-    position: absolute;
-    position: fixed;
-    right: 2%;
-    bottom: 6%;
-    z-index: 10;
-    padding: 0.5% 0.7%;
-    border-radius: 50%;
-    border: 1px solid rgb(104, 102, 102);
-    font-size: xx-large;
-    background-color: rgb(22, 20, 20);
-    a{
-        text-decoration: none;
-        z-index: 5;
-        color: white;
-        text-decoration: none;
-        cursor: pointer;
-
-    }
-} */
+/* */
 /* nav {
     font-family: nutino;
     position: fixed;
