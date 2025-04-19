@@ -8,7 +8,27 @@ body {
     background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(12, 12, 12, 0.5)), url(imagesandfonts/live.jpg);
 
 }
+#whatsapp{
+    color: rgb(245, 241, 241);
+    position: absolute;
+    position: fixed;
+    right: 2%;
+    bottom: 6%;
+    z-index: 10;
+    padding: 0.5% 0.7%;
+    border-radius: 50%;
+    border: 1px solid rgb(104, 102, 102);
+    font-size: xx-large;
+    background-color: rgb(22, 20, 20);
+    a{
+        text-decoration: none;
+        z-index: 5;
+        color: white;
+        text-decoration: none;
+        cursor: pointer;
 
+    }
+}
 #ankole-logo {
     top: 25%;
     left: 25%;
@@ -121,7 +141,35 @@ nav {
     }
 
 }
+.social-media-platforms {
+    right: 2%;
+    display: flex;
+    position: absolute;
+    width: 4%;
+    justify-content: space-between;
+    margin-top: 3%;
+    a {
+        text-decoration: none;
+        z-index: 5;
+        color: white;
+        text-decoration: none;
+        cursor: pointer;
+    }
 
+} 
+#socials {
+    
+    display: flex;
+    color: white;
+    padding: 10px;
+    border: 1px solid gray;
+    z-index: 10;
+    background-color: transparent(245, 252, 252);
+    border-radius: 50%;
+    padding: 10% 12%;
+    font-size: medium;
+   
+} 
 #kokoImg {
     padding: 1%;
     background-color: rgb(172, 151, 172);
