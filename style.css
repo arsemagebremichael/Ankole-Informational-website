@@ -4,10 +4,6 @@ body {
     margin: 0;
 }
 
-@font-face {
-    font-family: jmh;
-    src: url(imagesandfonts/JMH\ Typewriter.ttf);
-}
 
 @keyframes slide {
     0% {
@@ -137,7 +133,7 @@ h1 {
     font-size: 900%;
     color: gray;
     font-weight: lighter;
-    font-family: nutino;
+    font-family: jmh;
     padding-top: 2%;
 }
 
@@ -407,10 +403,7 @@ body{
     }
     
     
-    nav {
-        padding: %;
-
-    }
+   
     .hide{
         display: none;
     }
@@ -541,17 +534,18 @@ body{
 @media (width: 1024px) {
     body{
         height: 100vh;
+        overflow: hidden;
     }
     #ankole-logo{
         width: 30%;
     }
     nav{
-        height: 60px;
+        height: 50px;
         top: 90vh;
         position: absolute;
         left: 50%;
         transform: translate(-50%, -50%);
-        width: 70vw;
+        width: 90vw;
 
     }
     h1{
@@ -589,19 +583,4 @@ body{
     }
    
 }
-/* @media (width: 1028px) {
-    #ankole-logo{
-        width: 50%;
-    }
-    nav{
-        height: 24px;
-        top: 90vh;
-        position: absolute;
-        left: 50%;
-        transform: translate(-50%, -50%);
-        width: 90vw;
-
-    }
-   
-} */
 

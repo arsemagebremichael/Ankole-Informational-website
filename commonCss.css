@@ -13,10 +13,14 @@ body {
     font-family: nutino;
     src: url(imagesandfonts/Nunito-VariableFont_wght.ttf);
 }
+@font-face {
+    font-family: jmh;
+    src: url('imagesandfonts/JMH\ Typewriter.ttf');
+}
 html{
     scroll-behavior: smooth;
 }
-/* .social-media-platforms {
+.social-media-platforms {
     right: 2%;
     display: flex;
     position: absolute;
@@ -32,7 +36,7 @@ html{
     }
 
 } 
-/* #socials {
+#socials {
     
     display: flex;
     color: white;
@@ -44,36 +48,9 @@ html{
     padding: 10% 12%;
     font-size: medium;
    
-} */
+} 
 
 
-/* */
-/* nav {
-    font-family: nutino;
-    position: fixed;
-    z-index: 7;
-    position: absolute;
-    bottom: 1%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    width: 35%;
-    display: flex;
-    padding: 0.8% 1.5%;
-    border-radius: 3rem;
-    border: 1px solid transparent;
-    background-color: black;
-    justify-content: space-between;
-    align-items: center;
-    cursor: pointer;
-    font-size: medium; 
-    a:hover{
-        color: gray;
-    }
-    
-    i {
-        color: gray;
-    }
-} */
 
 .menu-up {
     position: relative;
@@ -129,65 +106,3 @@ html{
     color: black;
 }
 
-/* @media (max-width: 768px){
-    body{
-        margin: 0;
-        overflow-x: hidden;
-        width: 100w;
-
-    } 
-    .kitisuru {
-        overflow-y: scroll; 
-        flex-direction: column;
-    }
-    .kitisuru-menu {
-        width: 100vw;
-        height: 40vh;
-        overflow-y: scroll; 
-
-    }
-    #ankole-logo {
-        width: 20%;
-        top: 10%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-    }
-
-.kitisuru-menu-text {
-    top: 30%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-}
-.food-options{
-    width: 100vw;
-    height: 40px;
-    margin-top: -1%;
-}
-     
-    .kitisuru-menu-list {
-        width: 100vw;
-        height: 60vh;
-    }
-    nav{
-        left: 50%;
-    transform: translate(-50%, -50%);
-    width: 75vw;
-    background-color: rgb(10, 9, 9);
-    }
-    p{
-        font-size: small;
-        align-items: baseline;
-        line-height: 1;
-    }
-    #ankole-logo1{
-        width: 20%;
-    }
-    h4{
-        font-size: small;
-        line-height: 1;
-    }
-    h3{
-        font-size: large;
-    }
-
-} */
