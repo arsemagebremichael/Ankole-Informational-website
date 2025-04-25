@@ -41,10 +41,13 @@ body {
 
 .zanzibar {
     width: 34vw;
-    background-image: linear-gradient(rgba(34, 33, 33, 0.5), rgba(88, 82, 82, 0.5)), url(imagesandfonts/zanzibar.jpg);}
-.addis{
+    background-image: linear-gradient(rgba(34, 33, 33, 0.5), rgba(88, 82, 82, 0.5)), url(imagesandfonts/zanzibar.jpg);
+}
+
+.adiss {
     width: 34vw;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(https://cdn.prod.website-files.com/65aa1f78e2380ad0548de50d/65d4a8fe5863a791395eba11_Addis.jpg);}
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(https://cdn.prod.website-files.com/65aa1f78e2380ad0548de50d/65d4a8fe5863a791395eba11_Addis.jpg);
+}
 
 
 #pavilon {
@@ -53,6 +56,7 @@ body {
     line-height: 0;
     color: rgb(172, 166, 166);
 }
+
 .social-media-platforms {
     right: 2%;
     display: flex;
@@ -61,6 +65,7 @@ body {
     width: 4%;
     justify-content: space-between;
     margin-top: 3%;
+
     a {
         text-decoration: none;
         z-index: 5;
@@ -69,9 +74,10 @@ body {
         cursor: pointer;
     }
 
-} 
+}
+
 #socials {
-    
+
     display: flex;
     color: white;
     padding: 10px;
@@ -81,9 +87,10 @@ body {
     border-radius: 50%;
     padding: 10% 12%;
     font-size: medium;
-   
+
 }
-#whatsapp{
+
+#whatsapp {
     color: rgb(245, 241, 241);
     position: absolute;
     position: fixed;
@@ -95,7 +102,8 @@ body {
     border: 1px solid rgb(104, 102, 102);
     font-size: xx-large;
     background-color: rgb(22, 20, 20);
-    a{
+
+    a {
         text-decoration: none;
         z-index: 5;
         color: white;
@@ -103,16 +111,18 @@ body {
         cursor: pointer;
 
     }
-} 
+}
 
-h1{
+h1 {
     line-height: 1;
     font-size: xxx-large;
 }
-#pax{
+
+#pax {
     font-family: nutino;
     color: rgb(231, 206, 137);
 }
+
 nav {
     font-family: nutino;
     z-index: 7;
@@ -130,127 +140,160 @@ nav {
     justify-content: space-between;
     align-items: center;
     cursor: pointer;
-    font-size: medium; 
-    a:hover{
+    font-size: medium;
+
+    a:hover {
         color: gray;
     }
-    
+
     i {
         color: gray;
     }
-    a{
+
+    a {
         text-decoration: none;
         z-index: 5;
         color: white;
         text-decoration: none;
         cursor: pointer;
     }
-    }
-.more-info{
+}
+
+.more-info {
     font-family: nutino;
 }
-@media (max-width: 430px){
-    nav{
-        width:50vw;
+
+@media (max-width: 430px) {
+    nav {
+        width: 50vw;
         padding: 3%;
 
     }
-    body{
-overflow: scroll;    }
-    
- .event-places{
-    flex-direction: column;
-    padding-bottom: 50%;
 
- } 
- .place{
-    width: 100vw;
- }.social-media-platforms{
-    width: 7vh;
-    align-items: center;
-    flex-direction: column;
- }
- .hide{
-    display: none;
- }
- #socials{
-    margin-bottom: 1vh;
-}
- 
+    body {
+        overflow: scroll;
+    }
+
+    .event-places {
+        flex-direction: column;
+        padding-bottom: 50%;
+
+    }
+
+    .place {
+        width: 100vw;
+    }
+
+    .social-media-platforms {
+        width: 7vh;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .hide {
+        display: none;
+    }
+
+    #socials {
+        margin-bottom: 1vh;
+    }
+
 }
 
 @media (width: 540px) {
-    #ankole-logo{
+    #ankole-logo {
         top: 20%;
     }
-    body{
-overflow: scroll;    }
-    
- .event-places{
-    flex-direction: column;
- } 
- .place{
-    width: 100vw;
-    padding-top: 30vh;
-    padding-bottom: 50%;
- }.social-media-platforms{
-    flex-direction: column;
-    align-items: center;
- }
-nav{
-    width: 85vw;
-    a{
-        font-size: x-small;
+
+    body {
+        overflow: scroll;
+    }
+
+    .event-places {
+        flex-direction: column;
+    }
+
+    .place {
+        width: 100vw;
+        padding-top: 30vh;
+        padding-bottom: 50%;
+    }
+
+    .social-media-platforms {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    nav {
+        width: 85vw;
+
+        a {
+            font-size: x-small;
+        }
     }
 }
-}
+
 @media (min-width: 431px) and (max-width: 539px) {
-    #ankole-logo{
+    #ankole-logo {
         top: 20%;
     }
-    body{
-overflow: scroll;    }
-    
- .event-places{
-    flex-direction: column;
- } 
- .place{
-    width: 100vw;
-    padding-top: 30vh;
-    padding-bottom: 50%;
- }.social-media-platforms{
-    flex-direction: column;
-    align-items: center;
- }
-nav{
-    width: 70vw;
+
+    body {
+        overflow: scroll;
+    }
+
+    .event-places {
+        flex-direction: column;
+    }
+
+    .place {
+        width: 100vw;
+        padding-top: 30vh;
+        padding-bottom: 50%;
+    }
+
+    .social-media-platforms {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    nav {
+        width: 70vw;
+    }
+
 }
- 
-}
+
 @media (min-width: 541px) and (max-width: 912px) {
-    #ankole-logo{
+    #ankole-logo {
         top: 20%;
     }
+
     .social-media-platforms {
 
         width: 7vh;
         align-items: center;
         flex-direction: column;
     }
-    #socials{
+
+    #socials {
         margin-bottom: 1vh;
     }
-    body{
-overflow: scroll;    }
-    
- .event-places{
-    flex-direction: column;
- } 
- .place{
-    width: 100vw;
-    padding-top: 30vh;
-    padding-bottom: 50%;
- }nav{
+
+    body {
+        overflow: scroll;
+    }
+
+    .event-places {
+        flex-direction: column;
+    }
+
+    .place {
+        width: 100vw;
+        padding-top: 30vh;
+        padding-bottom: 50%;
+    }
+
+    nav {
         height: 65px;
         top: 90vh;
         position: absolute;
@@ -260,16 +303,18 @@ overflow: scroll;    }
         width: 90vw;
 
     }
- 
+
 }
-@media(min-width: 1024px) and (max-width: 1400px){
-    .place{
+
+@media(min-width: 1024px) and (max-width: 1400px) {
+    .place {
         width: 100vw;
-        
+
         padding-bottom: 50%;
 
-     }
-     nav{
+    }
+
+    nav {
         height: 60px;
         top: 90vh;
         position: absolute;
@@ -278,9 +323,11 @@ overflow: scroll;    }
         width: 70vw;
 
     }
-    h1{
+
+    h1 {
         font-size: 200%;
     }
+
     .social-media-platforms {
         align-items: center;
         position: absolute;
@@ -289,9 +336,9 @@ overflow: scroll;    }
         font-size: 50px;
         width: 7vh;
     }
-   
-    #socials{
+
+    #socials {
         margin-bottom: 1vh;
     }
-     
+
 }
